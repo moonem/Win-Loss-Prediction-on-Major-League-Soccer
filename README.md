@@ -38,3 +38,8 @@ Multiple variables, such as **player** and **team performance**, **home/away sta
   
   ![MLS data quality](/Resources/MLS_data_quality.png)
   
+  Fig. 1. MLS data sufficiency and adequacy information provided by the data source.
+  
+  From Fig. 1, we see that data on all relevant items is available for the period 2012-2020. Two key features - *Results* and *Player Stats* - are also fully available from 1996-2020, which should provide more data if required.
+  
+  
