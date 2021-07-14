@@ -18,19 +18,22 @@ Multiple variables, such as **player** and **team performance**, **home/away sta
 
   ### Player Data
   
-  all_goalkeepers.csv - all goalkeeper data from every season of MLS through 2020
+  **all_goalkeepers.csv** - all goalkeeper data from every season of MLS through 2020
   
-  all_players.csv - all outfield player data from every season of MLS through 2020
+  **all_players.csv** - all outfield player data from every season of MLS through 2020
 
   ### Game Data
 
-  matches.csv - match data from the 2001-2021 seasons
+  **matches.csv** - match data from the 2001-2021 seasons
 
   ### Event Data
 
-  events.csv - events from games from the 2008-2021 seasons
+  **events.csv** - events from games from the 2008-2021 seasons
 
   ### Tables
 
-  all_tables.csv - end of season / current standing of tables for every season through 2021
+  **all_tables.csv** - end of season / current standing of tables for every season through 2021
   
+  ### Data Quality
+  
+  ![MLS data quality](Resources/MLS_data_quality.png)
