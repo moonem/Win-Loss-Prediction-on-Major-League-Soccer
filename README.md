@@ -36,4 +36,4 @@ Multiple variables, such as **player** and **team performance**, **home/away sta
   
   ### Data Quality
   
-  ![MLS data quality](../Resources/MLS_data_quality.png)
+  ![MLS data quality](/Resources/MLS_data_quality.png)
