@@ -1,5 +1,7 @@
 # FinalProject
 
+  ## Win/Loss Prediction in Major League Soccer using Deep Learning model
+
 ## Goal 
 
 Predict win/loss outcomes of a specified team in the **Major League Soccer (MLS)** through a machine learning model that utilizes match statistics from the **2001-2021** seasons. 
