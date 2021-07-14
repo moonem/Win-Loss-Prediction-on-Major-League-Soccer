@@ -36,6 +36,8 @@ Multiple variables, such as **player** and **team performance**, **home/away sta
   
   ### Data Quality
   
+  In the Kaggle webpage, this dataset is rated with a score of **8.8** for **Data Usability** which seems good.
+  
   ![MLS data quality](/Resources/MLS_data_quality.png)
   
   Fig. 1. MLS data sufficiency and adequacy information provided by the data source.
