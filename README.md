@@ -18,23 +18,23 @@ Multiple variables, such as **player** and **team performance**, **home/away sta
 
   There is currently information on over 6000 matches and almost 420,000 events from those matches.
 
-  ### Player Data
+    ### Player Data
   
-  **all_goalkeepers.csv** - all goalkeeper data from every season of MLS through 2020; 19 Columns, 2,007 Rows.
+    **all_goalkeepers.csv** - all goalkeeper data from every season of MLS through 2020; 19 Columns, 2,007 Rows.
   
-  **all_players.csv** - all outfield player data from every season of MLS through 2020; 28 Columns, 15,768 Rows.
+    **all_players.csv** - all outfield player data from every season of MLS through 2020; 28 Columns, 15,768 Rows.
 
-  ### Game Data
+    ### Game Data
 
-  **matches.csv** - match data from the 2001-2021 seasons; 122+ Columns, 6,698 Rows.
+    **matches.csv** - match data from the 2001-2021 seasons; 122+ Columns, 6,698 Rows.
 
-  ### Event Data
+    ### Event Data
 
-  **events.csv** - events from games from the 2008-2021 seasons; 3 Columns, 442,178 Rows.
+    **events.csv** - events from games from the 2008-2021 seasons; 3 Columns, 442,178 Rows.
 
-  ### Tables
+    ### Tables
 
-  **all_tables.csv** - end of season / current standing of tables for every season through 2021; 17 Column, +/- 789 Rows.
+    **all_tables.csv** - end of season / current standing of tables for every season through 2021; 17 Column, +/- 789 Rows.
   
   ### Data Quality
   
