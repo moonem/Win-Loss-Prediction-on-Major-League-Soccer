@@ -10,7 +10,7 @@ Multiple variables, such as **player** and **team performance**, **home/away sta
 
   ### Data Source
   
-  Major League Soccer Dataset - by Joseph Mohr, last updated 11th July, 2021; version 34. The weblink: https://www.kaggle.com/josephvm/major-league-soccer-dataset?select=matches.csv
+  Major League Soccer Dataset - by Joseph Mohr, last updated 11th July, 2021; version 34. The weblink: https://www.kaggle.com/josephvm/major-league-soccer-dataset
 
   This dataset contains player, game, event, and table data from Major League Soccer (MLS).
 
