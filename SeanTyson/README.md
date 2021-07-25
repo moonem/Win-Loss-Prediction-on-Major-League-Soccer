@@ -1,4 +1,1 @@
-# FinalProject
-Predict outcome based on sports data.
-
-Test
+# Updates will be made on seantyson_branch until merged
