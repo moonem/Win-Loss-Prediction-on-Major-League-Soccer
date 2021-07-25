@@ -17,3 +17,4 @@ For Segment 1, I was responsible for cleaning and preparing data from the all_ta
 - Removed Points_Per_Game Column due to lack of data
 - Removed duplicative eastern & western conference rows
 - Fixed Points column calculations
+- Reordered columns for clarity
