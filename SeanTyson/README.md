@@ -14,7 +14,7 @@ For Segment 1, I was responsible for cleaning and preparing data from the all_ta
 - Cleaned mismatching club names
 - Removed Qualification column
 - Removed Shootout_Wins & Shootout_Losses
-- Removed Points_Per_Game Column due to lack of data
+- Removed Points_Per_Game Column
 - Removed duplicative eastern & western conference rows
 - Fixed Points column calculations
 - Reordered columns for clarity
