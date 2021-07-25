@@ -11,3 +11,4 @@ For Segment 1, I was responsible for cleaning and preparing data from the all_ta
 - Removed all data prior to 2004
 - Removed Head_to_Head column
 - Changed file name to all_tables_cleaned.csv
+- Cleaned mismatching club names
