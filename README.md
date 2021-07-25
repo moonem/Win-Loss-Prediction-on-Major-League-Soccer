@@ -8,6 +8,8 @@ Predict win/loss outcomes of a specified team in the **Major League Soccer (MLS)
 
 Multiple variables, such as **player** and **team performance**, **home/away status**, and **stadium attendance**, will be analyzed to gauge their impact and **predict potential match outcomes**.
 
+In addition to a machine learning model that predicts future match outcomes, the team will develop a Tableau dashboard that provides additional insight into the historical performance of MLS franchises, including data on win/loss records and top scorers.  
+
 ## Communication Protocols
 
 Team communication and project planning has been conducted through live video calls over Zoom and asynchronously through a project-specific Slack channel. The team also supplied contact details in the form of cell phone numbers and emails for any urgent tasks/questions.  
