@@ -8,6 +8,10 @@ Predict win/loss outcomes of a specified team in the **Major League Soccer (MLS)
 
 Multiple variables, such as **player** and **team performance**, **home/away status**, and **stadium attendance**, will be analyzed to gauge their impact and **predict potential match outcomes**.
 
+## Communication Protocols
+
+Team communication and project planning has been conducted through live video calls over Zoom and asynchronously through a project-specific Slack channel. The team also supplied contact details in the form of cell phone numbers and emails for any urgent tasks/questions.  
+
 ## Dataset Overview
 
   ### Data Source
