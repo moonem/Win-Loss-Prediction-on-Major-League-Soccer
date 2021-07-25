@@ -16,4 +16,4 @@ For Segment 1, I was responsible for cleaning and preparing data from the all_ta
 - Removed Shootout_Wins & Shootout_Losses
 - Removed Points_Per_Game Column due to lack of data
 - Removed duplicative eastern & western conference rows
-- Then removed conference column
+- Fixed Points column calculations
