@@ -3,6 +3,10 @@
   ## Win/Loss Prediction in Major League Soccer using Deep Learning model
   An overvall summary of our project and Segment 1 deliverables can be found here. Outside of joint efforts accomplishing the below, individual contributions are outlined in README files located within each team member's individual branches. 
   
+  #### Reason to choose this topic
+  
+  After forming the team for the Final Project, we explored few other topics to choose from but most team members showed passion to work on **Major League Soccer** data and thought this would be interesting to predict a team's outcome using Deep Learning model. 
+  
 ## Project Goal 
 
 Predict win/loss outcomes of a specified team in the **Major League Soccer (MLS)** through a machine learning model that utilizes match statistics from the **2001-2021** seasons. 
@@ -23,6 +27,32 @@ Our team has 4 members. Coincidentally our data source has also 4 key *.csv* fil
 2. M A Moonem - all_players_clean.csv; [Moonem_Branch](https://github.com/moonem/FinalProject/tree/moonem_branch/Resources)
 3. Daniel Gonzalez - matches_2004to2021.csv; [Daniel_Branch](https://github.com/moonem/FinalProject/tree/Daniel_Project/DanielGonzalez)
 4. Ben Reed - all_goalkeepers_clean.csv; [Ben Reed Branch](https://github.com/moonem/FinalProject/tree/main/BenReed)
+
+  ## Segment 2
+  
+  ### Data Exploration
+  
+  In the data exploration stage, each member worked on their own .csv file to **understand the data content** i.e., columns, empty or null values. The key task in exploration was to understand most of the abbreviated column headers using Google search and **match key columns** (e.g., Team / CLub) with all 4 .csv files.
+  
+  ### Data Analysis
+  
+  This has been a time-consuming task to analyze the datasets. Since the data was in the **.csv** format, we didn't have to do any *RegEX* operation on the data, rather it took a good effort to clean some anomaly in a few column entry's **datatype**, clean **scrambled data**, matching **club names** among multiple .csv files.
+  
+  For example, the *all_players_2004to2020.csv* file was imported to **Pandas** dataframe for further analysis. The following figure shows that the source data has abbreviated *column headers* and a lot of **NaN** values under certain columns.
+  
+  ![image](https://user-images.githubusercontent.com/58155187/127281715-63f86cfe-f99d-408a-974f-3d679be579a5.png)
+
+All the abbreaviated column headers have been **renamed** by replacing them with more elaborative and meaningful terms, as shown below,
+
+![image](https://user-images.githubusercontent.com/58155187/127282186-fef000f5-dce5-4088-80bd-f1cf073ce508.png)
+
+Next, **null values** under the **Club** column have been removed. Since our goal is to predict a team/club outcome in a game, we need **Club Names** without any null values in this column. So we **dropped** null values as shown below,
+
+![image](https://user-images.githubusercontent.com/58155187/127282878-0250d836-128a-40af-8394-75e2dfed0ccc.png)
+
+The abbreviated Club names have been **replaced** with the full name of the club, e.g., 'MIA':'Inter Miami CF'. Finally, a **cleaned** dataset having **25 columns** and **691 rows** of non-null data with consistent **DataType** has been achieved as shown below,
+
+![image](https://user-images.githubusercontent.com/58155187/127283879-6e1311c6-9413-4b35-a5ac-10e9cb9e4348.png)
 
 ## Communication Protocols
 
