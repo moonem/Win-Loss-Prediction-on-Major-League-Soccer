@@ -57,6 +57,7 @@ Team communication and project planning has been conducted through live video ca
 
   ### Sample Database
 
-A sample dataset can be seen below. This dataset will be supplemented with additional datasets that are still currently being cleaned that cover topics such as goal keeper performance, top goal scorers, and stadium details. These datasets will be joined on the Club Team Name column. 
+A sample dataset and ERD can be seen below. This dataset will be supplemented with additional datasets that are still currently being cleaned that cover topics such as goalkeeper performance, top goal scorers, and stadium details.
 
-![Sampe_Dataset](https://github.com/moonem/FinalProject/blob/main/Resources/Sample_Dataset.png)
+![Sample_Dataset](https://github.com/moonem/FinalProject/blob/main/Resources/Sample_Dataset.png)
+![Sample_Dataset_ERD](https://github.com/moonem/FinalProject/blob/main/Resources/Sample_ERD.png)
