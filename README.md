@@ -17,47 +17,6 @@ In addition to a machine learning model that predicts future match outcomes, the
 
 Our team decided on this project because our home city, Austin, Texas, recently got its first MLS soccer club. Austin FC, a new member of the Western Conference, has had a hot start to the 2021 season. We wanted to dig into the historic perforamance of rival clubs and develop a model to predict outcomes for our home team's first season. 
 
-## Teamwork
-
-  ## Segment 1
-  
-Our team has 4 members. Coincidentally our data source has also 4 key *.csv* files for the analysis. Each team-member cleaned one *.csv* data using **ETL** process and pushed to their respective branches as shown below. 
-
-1. Sean Tyson - all_tables_cleaned.csv, QuickDBD-export.png; [SeanTyson_Branch](https://github.com/moonem/FinalProject/tree/seantyson_branch/SeanTyson)
-2. M A Moonem - all_players_clean.csv; [Moonem_Branch](https://github.com/moonem/FinalProject/tree/moonem_branch/Resources)
-3. Daniel Gonzalez - matches_2004to2021.csv; [Daniel_Branch](https://github.com/moonem/FinalProject/tree/Daniel_Project/DanielGonzalez)
-4. Ben Reed - all_goalkeepers_clean.csv; [Ben Reed Branch](https://github.com/moonem/FinalProject/tree/main/BenReed)
-
-  ## Segment 2
-  
-  ### Data Exploration
-  
-  In the data exploration stage, each member worked on their own .csv file to **understand the data content** i.e., columns, empty or null values. The key task in exploration was to understand most of the abbreviated column headers using Google search and **match key columns** (e.g., Team / CLub) with all 4 .csv files.
-  
-  ### Data Analysis
-  
-  This has been a time-consuming task to analyze the datasets. Since the data was in the **.csv** format, we didn't have to do any *RegEX* operation on the data, rather it took a good effort to clean some anomaly in a few column entry's **datatype**, clean **scrambled data**, matching **club names** among multiple .csv files.
-  
-  For example, the *all_players_2004to2020.csv* file was imported to **Pandas** dataframe for further analysis. The following figure shows that the source data has abbreviated *column headers* and a lot of **NaN** values under certain columns.
-  
-  ![image](https://user-images.githubusercontent.com/58155187/127281715-63f86cfe-f99d-408a-974f-3d679be579a5.png)
-
-All the abbreaviated column headers have been **renamed** by replacing them with more elaborative and meaningful terms, as shown below,
-
-![image](https://user-images.githubusercontent.com/58155187/127282186-fef000f5-dce5-4088-80bd-f1cf073ce508.png)
-
-Next, **null values** under the **Club** column have been removed. Since our goal is to predict a team/club outcome in a game, we need **Club Names** without any null values in this column. So we **dropped** null values as shown below,
-
-![image](https://user-images.githubusercontent.com/58155187/127282878-0250d836-128a-40af-8394-75e2dfed0ccc.png)
-
-The abbreviated Club names have been **replaced** with the full name of the club, e.g., 'MIA':'Inter Miami CF'. Finally, a **cleaned** dataset having **25 columns** and **691 rows** of non-null data with consistent **DataType** has been achieved as shown below,
-
-![image](https://user-images.githubusercontent.com/58155187/127283879-6e1311c6-9413-4b35-a5ac-10e9cb9e4348.png)
-
-## Communication Protocols
-
-Team communication and project planning has been conducted through live video calls over **Zoom** and asynchronously through a project-specific **Slack** channel. The team also supplied contact details in the form of *cell phone* numbers and *emails* for any urgent tasks/questions.  
-
 ## Dataset Overview
 
   ### Data Source
@@ -102,3 +61,60 @@ A sample dataset and ERD can be seen below. This dataset will be supplemented wi
 
 ![Sample_Dataset](https://github.com/moonem/FinalProject/blob/main/Resources/Sample_Dataset.png)
 ![Sample_Dataset_ERD](https://github.com/moonem/FinalProject/blob/main/Resources/Sample_ERD.png)
+
+## Communication Protocols
+
+Team communication and project planning has been conducted through live video calls over **Zoom** and asynchronously through a project-specific **Slack** channel. The team also supplied contact details in the form of *cell phone* numbers and *emails* for any urgent tasks/questions.  
+
+
+## Teamwork
+
+  ## Segment 1
+  
+Our team has 4 members. Coincidentally our data source has also 4 key *.csv* files for the analysis. Each team-member cleaned one *.csv* data using **ETL** process and pushed to their respective branches as shown below. 
+
+1. Sean Tyson - all_tables_cleaned.csv, QuickDBD-export.png; [SeanTyson_Branch](https://github.com/moonem/FinalProject/tree/seantyson_branch/SeanTyson)
+2. M A Moonem - all_players_clean.csv; [Moonem_Branch](https://github.com/moonem/FinalProject/tree/moonem_branch/Resources)
+3. Daniel Gonzalez - matches_2004to2021.csv; [Daniel_Branch](https://github.com/moonem/FinalProject/tree/Daniel_Project/DanielGonzalez)
+4. Ben Reed - all_goalkeepers_clean.csv; [Ben Reed Branch](https://github.com/moonem/FinalProject/tree/main/BenReed)
+
+  ## Segment 2
+  
+  ### Data Exploration
+  
+  In the data exploration stage, each member worked on their own .csv file to **understand the data content** i.e., columns, empty or null values. The key task in exploration was to understand most of the abbreviated column headers using Google search and **match key columns** (e.g., Team / CLub) with all 4 .csv files.
+  
+  ### Forming a Database
+  
+  As we're working on 4 separate datasets an **entity relations diagram (ERD)** has bee formed to explore potential relations among the datasets across commmon columns.
+  
+  https://github.com/moonem/FinalProject/blob/seantyson_branch/SeanTyson/QuickDBD-export.png
+  
+  ### Data Analysis
+  
+  This has been a time-consuming task to analyze the datasets. Since the data was in the **.csv** format, we didn't have to do any *RegEX* operation on the data, rather it took a good effort to clean some anomaly in a few column entry's **datatype**, clean **scrambled data**, matching **club names** among multiple .csv files.
+  
+  For example, the *all_players_2004to2020.csv* file was imported to **Pandas** dataframe for further analysis. The following figure shows that the source data has abbreviated *column headers* and a lot of **NaN** values under certain columns.
+  
+  ![image](https://user-images.githubusercontent.com/58155187/127281715-63f86cfe-f99d-408a-974f-3d679be579a5.png)
+
+All the abbreaviated column headers have been **renamed** by replacing them with more elaborative and meaningful terms, as shown below,
+
+![image](https://user-images.githubusercontent.com/58155187/127282186-fef000f5-dce5-4088-80bd-f1cf073ce508.png)
+
+Next, **null values** under the **Club** column have been removed. Since our goal is to predict a team/club outcome in a game, we need **Club Names** without any null values in this column. So we **dropped** null values as shown below,
+
+![image](https://user-images.githubusercontent.com/58155187/127282878-0250d836-128a-40af-8394-75e2dfed0ccc.png)
+
+The abbreviated Club names have been **replaced** with the full name of the club, e.g., 'MIA':'Inter Miami CF'. Finally, a **cleaned** dataset having **25 columns** and **691 rows** of non-null data with consistent **DataType** has been achieved as shown below,
+
+![image](https://user-images.githubusercontent.com/58155187/127283879-6e1311c6-9413-4b35-a5ac-10e9cb9e4348.png)
+
+Similar data analysis steps have been taken by all 4 team members to clean respective data sets.
+
+### Machine Learning Model
+
+In order to predict a team's outcome in a game we chose **Neural Network** based **Deep Learning** algorithm. As the decision is kind of binary *yes / no*, we could choose other simpler *regression* based prediction algorithm also. Since neural network based algorithm provides better accuracy even with non-linear data relationship, *we preferred Deep Learning Model* over other prediction models.
+
+
+
