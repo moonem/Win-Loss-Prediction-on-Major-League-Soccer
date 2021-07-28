@@ -8,7 +8,9 @@ Predict win/loss outcomes of a specified team in the **Major League Soccer (MLS)
 
 Multiple variables, such as **player** and **team performance**, **home/away status**, and **stadium attendance**, will be analyzed to gauge their impact and **predict potential match outcomes**.
 
-In addition to a machine learning model that predicts future match outcomes, the team will develop a Tableau dashboard that provides additional insight into the historical performance of MLS franchises, including data on win/loss records and top scorers.  
+In addition to a machine learning model that predicts future match outcomes, the team will develop a Tableau dashboard that provides additional insight into the historical performance of MLS franchises, including data on win/loss records and top scorers.
+
+Our team decided on this project because our homne city, Austin, Texas, recently got its first MLS soccer club. Austin FC a new member of the Western Conference, and has had a hot start to the 2021 season. 
 
 ## Communication Protocols
 
