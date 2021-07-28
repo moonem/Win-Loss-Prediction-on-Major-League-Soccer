@@ -1,8 +1,9 @@
 # FinalProject
 
   ## Win/Loss Prediction in Major League Soccer using Deep Learning model
-
-## Goal 
+  An overvall summary of our project and segment 1 deliverables can be found here. Outside of joint efforts accomplishing the below, individual contributions are outlined in README files located within each team member's individual branches. 
+  
+## Project Goal 
 
 Predict win/loss outcomes of a specified team in the **Major League Soccer (MLS)** through a machine learning model that utilizes match statistics from the **2001-2021** seasons. 
 
@@ -10,7 +11,7 @@ Multiple variables, such as **player** and **team performance**, **home/away sta
 
 In addition to a machine learning model that predicts future match outcomes, the team will develop a Tableau dashboard that provides additional insight into the historical performance of MLS franchises, including data on win/loss records and top scorers.
 
-Our team decided on this project because our homne city, Austin, Texas, recently got its first MLS soccer club. Austin FC a new member of the Western Conference, and has had a hot start to the 2021 season. 
+Our team decided on this project because our home city, Austin, Texas, recently got its first MLS soccer club. Austin FC, a new member of the Western Conference, has had a hot start to the 2021 season. We wanted to dig into the historic perforamance of rival clubs and develop a model to predict outcomes for our home team's first season. 
 
 ## Communication Protocols
 
@@ -54,4 +55,5 @@ Team communication and project planning has been conducted through live video ca
   
   From Fig. 1, we see that data on all relevant items is available for the period 2012-2020. Two key features - *Results* and *Player Stats* - are also fully available from 1996-2020, which should provide more data if required.
 
-  
+  ### Sample Database
+
