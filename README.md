@@ -49,7 +49,7 @@ Our team decided on this project because our home city, Austin, Texas, recently 
   
   In the Kaggle webpage, this dataset is rated with a score of **8.8** for **Data Usability** which seems good.
   
-  ![MLS data quality](/Resources/MLS_data_quality.png)
+  ![MLS data quality](/Resources/Images/MLS_data_quality.png)
   
   Fig. 1. MLS data sufficiency and adequacy information provided by the data source.
   
@@ -59,7 +59,7 @@ Our team decided on this project because our home city, Austin, Texas, recently 
 
 A sample dataset and ERD can be seen below. This dataset will be supplemented with additional datasets that are still currently being cleaned that cover topics such as goalkeeper performance, top goal scorers, and stadium details.
 
-![Sample_Dataset](https://github.com/moonem/FinalProject/blob/main/Resources/Sample_Dataset.png)
+![Sample_Dataset](https://github.com/moonem/FinalProject/blob/main/Resources/Images/Sample_Dataset.png)
 
 ## Communication Protocols
 
