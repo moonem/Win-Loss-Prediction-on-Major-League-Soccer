@@ -88,7 +88,7 @@ Our team has 4 members. Coincidentally our data source has also 4 key *.csv* fil
   
   As we're working on 4 separate datasets an **entity relations diagram (ERD)** has bee formed to explore potential relations among the datasets across commmon columns.
   
-  https://github.com/moonem/FinalProject/blob/seantyson_branch/SeanTyson/QuickDBD-export.png
+  ![QuickDBD 4 tables](https://github.com/moonem/FinalProject/blob/seantyson_branch/SeanTyson/QuickDBD-export.png)
   
   ### Data Analysis
   
