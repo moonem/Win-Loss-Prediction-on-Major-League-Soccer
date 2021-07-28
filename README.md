@@ -87,7 +87,7 @@ Our team has 4 members. Coincidentally our data source has also 4 key *.csv* fil
   
   As we're working on 4 separate datasets an **entity relations diagram (ERD)** has bee formed to explore potential relations among the datasets across commmon columns.
   
- ![Sample_Dataset_ERD](https://github.com/moonem/FinalProject/blob/main/Resources/Sample_ERD.png)
+ ![Sample_Dataset_ERD](https://github.com/moonem/FinalProject/blob/main/Resources/Images/Sample_ERD.png)
   
   ### Data Analysis
   
