@@ -116,5 +116,34 @@ Similar data analysis steps have been taken by all 4 team members to clean respe
 
 In order to predict a team's outcome in a game we chose **Neural Network** based **Deep Learning** algorithm. As the decision is kind of binary *yes / no*, we could choose other simpler *regression* based prediction algorithm also. Since neural network based algorithm provides better accuracy even with non-linear data relationship, *we preferred Deep Learning Model* over other prediction models.
 
+  #### Data Preprocessing
+  
+  The data is imported to a jupyter notebook for preprocessing. Following image screeshots of the **MajorLeagueSoccer_NN.ipynb** link: [jupyter notebook](https://github.com/moonem/FinalProject/blob/main/Resources/MajorLeagueSoccer_NN.ipynb) shows the steps of data preprocessing.
+  
+  ![image](https://user-images.githubusercontent.com/58155187/127307165-06180638-ea58-446e-b0a9-ff51f62de6b7.png)
+  
+  ![image](https://user-images.githubusercontent.com/58155187/127307317-6a13b6dd-d543-4882-a1d8-547921702711.png)
+
+![image](https://user-images.githubusercontent.com/58155187/127307583-6f43715e-663b-419c-8c6f-851b1389c52b.png)
+
+![image](https://user-images.githubusercontent.com/58155187/127307662-2b4e52d3-c2bc-4ea2-8761-3708d982523f.png)
+
+![image](https://user-images.githubusercontent.com/58155187/127307738-3dc706ea-2e40-4251-b28a-9b62d3e9a992.png)
+
+#### Training and Testing dataset
+
+We need to **split** our **training** and **testing** data *before* fitting our **StandardScaler** instance. This <u> prevents testing data from influencing the standardization </u> function.
+
+To build our training and testing datasets, we need to separate two values:
+
+input values (which are our *independent variables* commonly referred to as **model features or "X"**) and **target output** ( *dependent variable* commonly referred to as **target or "y"** in TensorFlow documentation).
+
+![image](https://user-images.githubusercontent.com/58155187/127308070-7a56ff26-f0ac-4241-ba23-b86ec43f806a.png)
+
+![image](https://user-images.githubusercontent.com/58155187/127308168-95e5d5d0-8770-4bab-8dda-010d76d2ff66.png)
+
+
+
+
 
 
