@@ -13,9 +13,20 @@ In addition to a machine learning model that predicts future match outcomes, the
 
 Our team decided on this project because our home city, Austin, Texas, recently got its first MLS soccer club. Austin FC, a new member of the Western Conference, has had a hot start to the 2021 season. We wanted to dig into the historic perforamance of rival clubs and develop a model to predict outcomes for our home team's first season. 
 
+## Teamwork
+
+  ## Segment 1
+  
+Our team has 4 members. Coincidentally our data source has also 4 key *.csv* files for the analysis. Each team-member cleaned one *.csv* data using **ETL** process and pushed to their respective branches as shown below. 
+
+1. Sean Tyson - all_tables_cleaned.csv, QuickDBD-export.png; [SeanTyson_Branch](https://github.com/moonem/FinalProject/tree/seantyson_branch/SeanTyson)
+2. M A Moonem - all_players_clean.csv; [Moonem_Branch](https://github.com/moonem/FinalProject/tree/moonem_branch/Resources)
+3. Daniel Gonzalez - matches_2004to2021.csv; [Daniel_Branch](https://github.com/moonem/FinalProject/tree/Daniel_Project/DanielGonzalez)
+4. Ben Reed - all_goalkeepers_clean.csv; [Ben Reed Branch](https://github.com/moonem/FinalProject/tree/main/BenReed)
+
 ## Communication Protocols
 
-Team communication and project planning has been conducted through live video calls over Zoom and asynchronously through a project-specific Slack channel. The team also supplied contact details in the form of cell phone numbers and emails for any urgent tasks/questions.  
+Team communication and project planning has been conducted through live video calls over **Zoom** and asynchronously through a project-specific **Slack** channel. The team also supplied contact details in the form of *cell phone* numbers and *emails* for any urgent tasks/questions.  
 
 ## Dataset Overview
 
