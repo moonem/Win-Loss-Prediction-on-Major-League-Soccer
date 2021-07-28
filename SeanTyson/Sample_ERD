@@ -1,0 +1,91 @@
+Tables
+- 
+Team varchar pk FK >- Players.Club
+Year date pk FK >- Goalkeepers.Year
+Games_Played int
+Wins int
+Losses int
+Draws int
+Goals_For int
+Goals_Against int
+Goal_Differential int
+Points int
+Conference varchar
+
+Players
+- 
+Player varchar pk
+Club varchar FK
+Position varchar
+Games_Played int
+Games_Started int
+Minutes_Played int
+Goals_Scored int
+Assists int
+Shots int
+Shots_On_Goal int
+Game_Winning_Goal int
+Home_Goals int
+Road_Goals int
+Goals_Per_90_Minutes int
+Shot_Conversion int
+Game_Winning_Assist int
+Home_Assists int
+Raod_Assists int
+Assists_Per_90_Min int
+Fouls_Committed int
+Fouls_Suffered int
+Offsides int
+Yellow_Cards int
+Red_Cards int
+Year date FK >- Matches.Year
+Season int
+
+Matches
+-
+Game_ID int pk
+Home_Team varchar FK >- Tables.Team
+Away_Team varchar FK >- Tables.Team
+Date date
+Year date FK >- Tables.Year
+Attendance int
+Venue varchar
+League varchar
+Part_of_Competition varchar
+Game_Status varchar
+Shootout boolean
+Home_Score int
+Away_Score int
+Home_Possession_Pct int
+Away_Possession_Pct int
+Home_Shots_Summary int
+Away_Shots_Summary int
+Home_Fouls_Committed int
+Away_Fouls_Committed int
+Home_Yellow_Cards int
+Away_Yellow_Cards int
+Home_Red_Cards int
+Away_Red_Cards int
+Home_Offsides int
+Away_Offsides int
+Home_Saves int
+Away_Saves int
+
+Goalkeepers
+-
+Player varchar pk
+Club varchar FK >- Tables.Team
+Games_Played int
+Games_Started int
+Minutes_Played int
+Shots_Faced int
+Saves_Made int
+Goals_Against int
+Goals_Against_Average int
+Penalty_Kicks_Not_Saved/Penatly_Kicks_Against int
+Wins int
+Losses int
+Ties int
+Wins_Percentage int
+Save_Percentage int
+Year date FK >- Matches.Year

@@ -18,3 +18,6 @@ For Segment 1, I was responsible for cleaning and preparing data from the all_ta
 - Removed duplicative eastern & western conference rows
 - Fixed Points column calculations
 - Reordered columns for clarity
+
+### Database Structure
+- Created ERD of sample database on QuickDBD
