@@ -1,7 +1,7 @@
 # FinalProject
 
   ## Win/Loss Prediction in Major League Soccer using Deep Learning model
-  An overvall summary of our project and segment 1 deliverables can be found here. Outside of joint efforts accomplishing the below, individual contributions are outlined in README files located within each team member's individual branches. 
+  An overvall summary of our project and Segment 1 deliverables can be found here. Outside of joint efforts accomplishing the below, individual contributions are outlined in README files located within each team member's individual branches. 
   
 ## Project Goal 
 
