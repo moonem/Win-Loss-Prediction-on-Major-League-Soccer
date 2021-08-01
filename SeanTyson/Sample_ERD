@@ -1,7 +1,7 @@
-Tables
+Season_Tables
 - 
-Team varchar pk FK >- Players.Club
-Year date pk FK >- Goalkeepers.Year
+Team varchar pk FK >-< Players.Club
+Year date pk FK >-< Goalkeepers.Year
 Games_Played int
 Wins int
 Losses int
@@ -38,16 +38,16 @@ Fouls_Suffered int
 Offsides int
 Yellow_Cards int
 Red_Cards int
-Year date FK >- Matches.Year
+Year date FK >-< Matches.Year
 Season int
 
 Matches
 -
 Game_ID int pk
-Home_Team varchar FK >- Tables.Team
-Away_Team varchar FK >- Tables.Team
+Home_Team varchar FK >-< Season_Tables.Team
+Away_Team varchar FK >-< Season_Tables.Team
 Date date
-Year date FK >- Tables.Year
+Year date FK >-< Season_Tables.Year
 Attendance int
 Venue varchar
 League varchar
@@ -74,7 +74,7 @@ Away_Saves int
 Goalkeepers
 -
 Player varchar pk
-Club varchar FK >- Tables.Team
+Club varchar FK >-< Season_Tables.Team
 Games_Played int
 Games_Started int
 Minutes_Played int
@@ -88,4 +88,4 @@ Losses int
 Ties int
 Wins_Percentage int
 Save_Percentage int
-Year date FK >- Matches.Year
+Year date FK >-< Matches.Year
