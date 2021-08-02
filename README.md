@@ -89,6 +89,16 @@ Our team has 4 members. Coincidentally our data source has also 4 key *.csv* fil
   
  ![ERD](https://github.com/moonem/FinalProject/blob/main/Resources/Images/QuickDBD-export.png)
   
+The MLS_FinalProject database was then created in pgAdmin. The following four tables were created to conside with our four csv files. 
+- Season_Tables
+- Matches
+- Players
+- Goalkeepers
+
+![Step_4](https://github.com/moonem/FinalProject/blob/main/SeanTyson/Step_4.png)
+
+![Step_5](https://github.com/moonem/FinalProject/blob/main/SeanTyson/Step_6.png)
+
   ### Data Analysis
   
   This has been a time-consuming task to analyze the datasets. Since the data was in the **.csv** format, we didn't have to do any *RegEX* operation on the data, rather it took a good effort to clean some anomaly in a few column entry's **datatype**, clean **scrambled data**, matching **club names** among multiple .csv files.
