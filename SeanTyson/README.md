@@ -21,3 +21,28 @@ For Segment 1, I was responsible for cleaning and preparing data from the all_ta
 
 ### Database Structure
 - Created ERD of sample database on QuickDBD
+
+# Segment 2
+
+For Segment 2, I was responsible for establishing a database integration. I ran into multiple technical difficulties and have not finished the integration with SQLAlchemy. However, I updated the database ERD with a new structure for our project's four data tables and completed the steps below in pgAdmin. 
+
+Step 1: Created a database in pgAdmin
+![Step_1]()
+
+Step 2: Named database MLS_FinalProject
+![Step_2]()
+
+Step 3: Accessed Query Tool
+![Step_3]()
+
+Step 4: Created four SQL tables matching ERD structure
+![Step_4]()
+
+Step 5: Inserted data from the CSV files into the tables 
+![Step_5]()
+
+Step 6: Verified the success of the import
+![Step_6]()
+
+Step 7:
+![Step_7]()

@@ -1,5 +1,6 @@
 Season_Tables
 - 
+Pos int
 Team varchar pk FK >-< Players.Club
 Year date pk FK >-< Goalkeepers.Year
 Games_Played int
