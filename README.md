@@ -141,7 +141,9 @@ input values (which are our *independent variables* commonly referred to as **mo
 
 ![image](https://user-images.githubusercontent.com/58155187/127308168-95e5d5d0-8770-4bab-8dda-010d76d2ff66.png)
 
+### Dashboard
 
+We will be presenting our analysis on Tableau, an interactive data visualization tool. The presentation will be in the form of a multi-dashboard Tableau story hosted online on Tableau Public. Our dashboards will incorporate historical data in the form of various team and player statistics from previous MLS seasons. We will be filtering our data by team and using team logo images as part of our filter-selection features. After selecting a team logo, the dashboard will present statistics like last year's top scorer, the team's record over the years, and data on average stadium attendance rates, among others.
 
 
 
