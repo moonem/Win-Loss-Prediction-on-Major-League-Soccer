@@ -85,6 +85,8 @@ Our team has 4 members. Coincidentally our data source has also 4 key *.csv* fil
   
   ### Forming a Database
   
+  [Sean Tyson DB link:](https://github.com/moonem/FinalProject/blob/seantyson_branch/SeanTyson/README.md)
+  
   As we're working on 4 separate datasets an **entity relations diagram (ERD)** has bee formed to explore potential relations among the datasets across commmon columns.
   
  ![ERD](https://github.com/moonem/FinalProject/blob/main/Resources/Images/QuickDBD-export.png)
