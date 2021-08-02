@@ -46,3 +46,6 @@ Step 6: Verified the success of the import
 
 Step 7:
 ![Step_7]()
+
+Step 8
+![Step_8]()
