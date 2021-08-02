@@ -61,10 +61,10 @@ input values (which are our *independent variables* commonly referred to as **mo
 - Outline of the project is described in the Readme.md which is updated regularly as the teamwork is progressing every week.
 - Each of 4 team members have their individual brances. 
 - Each team member is uploading their commits to their respective branch and/or to the `main` project folder.
-- 
+
 ## Database
 
-https://github.com/moonem/FinalProject/tree/seantyson_branch/SeanTyson
+[Database snapshots are in the Readme @ Sean Tyson branch](https://github.com/moonem/FinalProject/tree/seantyson_branch/SeanTyson)
 
 ## Dashboard
 
