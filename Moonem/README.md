@@ -13,3 +13,5 @@ Saved the new .csv files as,
 - matches_2004to2021.csv
 
 Original .csv files are also there in the **Resources** folder. 
+
+## All the relevant files for Segment-2 is copied and kept in a folder named "Segment_2".
