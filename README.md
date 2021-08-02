@@ -127,7 +127,7 @@ In order to predict a team's outcome in a game we chose **Neural Network** based
 
   #### Data Preprocessing
   
-  The data is imported to a jupyter notebook for preprocessing. Following image screeshots of the **MajorLeagueSoccer_NN.ipynb** link: [jupyter notebook](https://github.com/moonem/FinalProject/blob/main/Resources/all_ipynb/MLS_players_NN.ipynb) shows the steps of data preprocessing.
+  The data on matches is imported to a jupyter notebook for preprocessing. Following image screeshots of the **MajorLeagueSoccer_NN.ipynb** link: [jupyter notebook](https://github.com/moonem/FinalProject/blob/main/Resources/all_ipynb/MLS_players_NN.ipynb) shows the steps of data preprocessing.
   
   ![image](https://user-images.githubusercontent.com/58155187/127307165-06180638-ea58-446e-b0a9-ff51f62de6b7.png)
   
