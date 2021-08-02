@@ -87,7 +87,7 @@ Our team has 4 members. Coincidentally our data source has also 4 key *.csv* fil
   
   As we're working on 4 separate datasets an **entity relations diagram (ERD)** has bee formed to explore potential relations among the datasets across commmon columns.
   
- ![Sample_Dataset_ERD](https://github.com/moonem/FinalProject/blob/main/Resources/Images/Sample_ERD.png)
+ ![ERD](https://github.com/moonem/FinalProject/blob/main/Resources/Images/QuickDBD-export.png)
   
   ### Data Analysis
   
@@ -143,7 +143,9 @@ input values (which are our *independent variables* commonly referred to as **mo
 
 ### Dashboard
 
-We will be presenting our analysis on Tableau, an interactive data visualization tool. The presentation will be in the form of a multi-dashboard Tableau story hosted online on Tableau Public. Our dashboards will incorporate historical data in the form of various team and player statistics from previous MLS seasons. We will be filtering our data by team and using team logo images as part of our filter-selection features. After selecting a team logo, the dashboard will present statistics like last year's top scorer, the team's record over the years, and data on average stadium attendance rates, among others.
+We will be presenting our analysis on Tableau, an interactive data visualization tool. The presentation will be in the form of a multi-dashboard Tableau story hosted online on Tableau Public. 
+
+Our dashboards will incorporate historical data in the form of various team and player statistics from previous MLS seasons. We will be filtering our data by team and using team logo images as part of our filter-selection features. After selecting a team logo, the dashboard will present statistics like last year's top scorer, the team's record over the years, and data on average stadium attendance rates, among others.
 
 
 
