@@ -24,28 +24,31 @@ For Segment 1, I was responsible for cleaning and preparing data from the all_ta
 
 # Segment 2
 
-For Segment 2, I was responsible for establishing a database integration. I ran into multiple technical difficulties and have not finished the integration with SQLAlchemy. However, I updated the database ERD with a new structure for our project's four data tables and completed the steps below in pgAdmin. 
+For Segment 2, I was responsible for establishing a database integration. I ran into multiple technical difficulties and have not finished the integration with SQLAlchemy. However, I updated the database ERD with a new structure for our project's four data tables and completed steps 1-6 below in pgAdmin and steps 7-8 in Jupyter Notebook.
+
+ERD:
+![ERD](https://github.com/moonem/FinalProject/blob/seantyson_branch/SeanTyson/QuickDBD-export.png)
 
 Step 1: Created a database in pgAdmin
-![Step_1]()
+![Step_1](https://github.com/moonem/FinalProject/blob/main/SeanTyson/Step_1.png)
 
 Step 2: Named database MLS_FinalProject
-![Step_2]()
+![Step_2](https://github.com/moonem/FinalProject/blob/main/SeanTyson/Step_2.png)
 
 Step 3: Accessed Query Tool
-![Step_3]()
+![Step_3](https://github.com/moonem/FinalProject/blob/main/SeanTyson/Step_3.png)
 
 Step 4: Created four SQL tables matching ERD structure
-![Step_4]()
+![Step_4](https://github.com/moonem/FinalProject/blob/main/SeanTyson/Step_4.png)
 
 Step 5: Inserted data from the CSV files into the tables 
-![Step_5]()
+![Step_5](https://github.com/moonem/FinalProject/blob/main/SeanTyson/Step_5.png)
 
 Step 6: Verified the success of the import
-![Step_6]()
+![Step_6](https://github.com/moonem/FinalProject/blob/main/SeanTyson/Step_6.png)
 
-Step 7:
-![Step_7]()
+Step 7: (WIP) Reflected tables into SQLAlchemy ORM
+![Step_7](https://github.com/moonem/FinalProject/blob/seantyson_branch/SeanTyson/Step%207.png)
 
-Step 8
-![Step_8]()
+Step 8: (WIP) Save references to each table and create a session link from Python to the DB
+![Step_8](https://github.com/moonem/FinalProject/blob/seantyson_branch/SeanTyson/Step%208.png)
