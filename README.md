@@ -139,6 +139,7 @@ In order to predict a team's outcome in a game we chose **Neural Network** based
 
 ![image](https://user-images.githubusercontent.com/58155187/127307738-3dc706ea-2e40-4251-b28a-9b62d3e9a992.png)
 
+
 #### Training and Testing dataset
 
 We need to **split** our **training** and **testing** data *before* fitting our **StandardScaler** instance. This <u> prevents testing data from influencing the standardization </u> function.
