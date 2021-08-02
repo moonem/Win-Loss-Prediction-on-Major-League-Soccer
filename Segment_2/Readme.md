@@ -2,6 +2,8 @@
 
 ## Presentation
 
+[google slides](https://docs.google.com/presentation/d/1b0U9tTp1LIhrh8zkYAMvX0BZqA8qRPFrOiRTJiwtGKI/edit?usp=sharing)
+
 ### Selected Topic
 
 The topic has been selected as **"Win/Loss Prediction in Major League Soccer using Deep Learning model"**.
@@ -19,4 +21,6 @@ Our team decided on this project because our home city, Austin, Texas, recently 
   There is currently information on over 6000 matches and almost 420,000 events from those matches.
 
 ### Questions we hope to answer with the data
+
+![image](https://user-images.githubusercontent.com/58155187/127813723-fc574beb-701c-4300-a891-fe95db09245a.png)
 
