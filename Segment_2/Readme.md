@@ -59,7 +59,7 @@ input values (which are our *independent variables* commonly referred to as **mo
 ## GitHub
 
 - The `main` branch has all data and codes in **Resources** folder. A copy of files relevant to *Segment-2* of the project, have been kept inside the **Segment_2** folder under the **FinalProject** folder.
-- A separate **MLS_matches_NN.ipynb** file is created to design the machine learning model; [file url:](http://localhost:8888/notebooks/UT_DataScience/UTA-VIRT-DATA-PT-02-2021-U-B/FinalProject/Segment_2/MLS_matches_NN.ipynb)
+- A separate **MLS_matches_NN.ipynb** file is created to design the machine learning model; [file url:](https://github.com/moonem/FinalProject/blob/main/Segment_2/MLS_matches_NN.ipynb)
 - Communication protocols are defined in the **Readme.md** file for the project team.
 - Outline of the project is described in the Readme.md which is updated regularly as the teamwork is progressing every week.
 - Each of 4 team members have their individual brances. 
