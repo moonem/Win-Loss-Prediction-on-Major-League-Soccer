@@ -25,6 +25,9 @@ Our team decided on this project because our home city, Austin, Texas, recently 
 ![image](https://user-images.githubusercontent.com/58155187/127813723-fc574beb-701c-4300-a891-fe95db09245a.png)
 
 ## Machine Learning Model
+
+[MLS_matches_NN.ipynb](https://github.com/moonem/FinalProject/blob/main/Segment_2/MLS_matches_NN.ipynb)
+
 In order to predict a team's outcome in a game we chose **Neural Network** based **Deep Learning** algorithm. As the decision is kind of binary *yes / no*, we could choose other simpler *regression* based prediction algorithm also. Since neural network based algorithm provides better accuracy even with non-linear data relationship, *we preferred Deep Learning Model* over other prediction models.
 
   ### Data Preprocessing
