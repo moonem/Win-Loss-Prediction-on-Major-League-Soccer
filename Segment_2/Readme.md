@@ -24,6 +24,56 @@ Our team decided on this project because our home city, Austin, Texas, recently 
 
 ![image](https://user-images.githubusercontent.com/58155187/127813723-fc574beb-701c-4300-a891-fe95db09245a.png)
 
+### Data Exploration
+
+In the data exploration stage, each member worked on their own .csv file to understand the data content i.e., columns, empty or null values. 
+
+The key task in exploration was - 
+- To understand most of the abbreviated column headers using Google search and match key columns (e.g., Team / CLub) with all 4 .csv files;
+- Deciding which columns seem insignificant in decision making and may be dropped; 
+- Identifying columns with data anomaly which needed to be cleaned.
+
+### Data Analysis and Cleaning
+
+Following steps summarize the process of data analysis including data cleaning where necessary,
+
+- Updated column titles for clarity
+- Fixed Goal_Differential calculation errors
+- Removed all data prior to 2004 (due to most of the columns having null values)
+- Removed seemingly insignificant data column
+- Cleaned, renamed mismatching club names
+- Removed duplicate entries
+- Applied regex on a date column with anomaly in entry
+- Fixed Points column calculations
+- Reordered columns for clarity
+- Exported the cleaned .csv files to the project folder
+- These clean files are used in DB forming and ML processing phases
+
+The following figure shows an example of **data cleaning** process,
+
+![data_cleaning](https://user-images.githubusercontent.com/58155187/128083380-48edef5c-7b45-4041-a0ee-ace6d8f3e168.png)
+
+### Creating an ERD for PostgreSQL Database
+
+![QuickDBD-export](https://user-images.githubusercontent.com/58155187/128083646-835b9c1a-edad-449f-acd3-142afd558732.png)
+
+### Creating an empty Database named "major_league_soccer" in PostgreSQL
+
+![empty_db_mls](https://user-images.githubusercontent.com/58155187/128083845-81a91eac-7b79-478e-bbe8-fd5275f11f40.png)
+
+### Export data from pandas DataFrame to PostgreSQL database
+
+Exported 6 cleaned DataFrames to SQL tables and 2 tables are joined using SQL Query, as shown in the following figure,
+
+![six_tables_to_mls_db_join](https://user-images.githubusercontent.com/58155187/128083949-ec90384f-0e70-41d9-a3b8-429acbe90cb4.png)
+
+### Reading data from SQL Database
+
+For Deep Learning preprocessing, data tables are imported from the SQL database as shown below,
+
+![read_from_sql](https://user-images.githubusercontent.com/58155187/128084232-7f776d13-8a9b-482f-83b8-cf7fc510bb69.png)
+
+
 ## Machine Learning Model
 
 [MLS_matches_NN.ipynb](https://github.com/moonem/FinalProject/blob/main/Segment_2/MLS_matches_NN.ipynb)
@@ -32,19 +82,25 @@ In order to predict a team's outcome in a game we chose **Neural Network** based
 
   ### Data Preprocessing
   
-  The data on matches is imported to a jupyter notebook for preprocessing. Following image screeshots of the **MajorLeagueSoccer_NN.ipynb** link: [jupyter notebook](https://github.com/moonem/FinalProject/blob/main/Resources/all_ipynb/MLS_players_NN.ipynb) shows the steps of data preprocessing.
+  The data on matches is imported from SQL localhost server to a jupyter notebook for preprocessing. Following image screeshots of the **MLS_matches_NN.ipynb** link: [jupyter notebook](https://github.com/moonem/FinalProject/blob/main/Segment_2/MLS_matches_NN.ipynb) shows the steps of data preprocessing.
   
-  ![image](https://user-images.githubusercontent.com/58155187/127307165-06180638-ea58-446e-b0a9-ff51f62de6b7.png)
+- Read data from SQL database:
   
-  ![image](https://user-images.githubusercontent.com/58155187/127307317-6a13b6dd-d543-4882-a1d8-547921702711.png)
+  ![read_from_sql](https://user-images.githubusercontent.com/58155187/128084656-1c9a7470-1087-4df3-8c46-aa1b6107f6a8.png)
 
-![image](https://user-images.githubusercontent.com/58155187/127307583-6f43715e-663b-419c-8c6f-851b1389c52b.png)
+- Check categorical variables for OneHotEncoding:
+ 
+ ![image](https://user-images.githubusercontent.com/58155187/128084901-7e709ac0-3058-4508-b525-374349d752c2.png)
 
-![image](https://user-images.githubusercontent.com/58155187/127307662-2b4e52d3-c2bc-4ea2-8761-3708d982523f.png)
+- **OneHotEncoder** to encode categorical variables:
 
-![image](https://user-images.githubusercontent.com/58155187/127307738-3dc706ea-2e40-4251-b28a-9b62d3e9a992.png)
+![image](https://user-images.githubusercontent.com/58155187/128085043-f220b549-e1c9-4a49-b9bf-3f5e07dfa03a.png)
 
-### Training and Testing dataset
+- **Merging** `encode_df` with original `mls_matches`:
+
+![image](https://user-images.githubusercontent.com/58155187/128085209-2f2507cc-89a8-4e53-b83e-606ad9dbe3ec.png)
+
+- Define **features (X)** and **output (y)** in the *training* and *test* dataset :
 
 We need to **split** our **training** and **testing** data *before* fitting our **StandardScaler** instance. This <u> prevents testing data from influencing the standardization </u> function.
 
@@ -52,22 +108,33 @@ To build our training and testing datasets, we need to separate two values:
 
 input values (which are our *independent variables* commonly referred to as **model features or "X"**) and **target output** ( *dependent variable* commonly referred to as **target or "y"** in TensorFlow documentation).
 
-![image](https://user-images.githubusercontent.com/58155187/127308070-7a56ff26-f0ac-4241-ba23-b86ec43f806a.png)
+![image](https://user-images.githubusercontent.com/58155187/128085484-825a5f7e-f654-47b5-b776-d1ec9e284bf2.png)
 
-![image](https://user-images.githubusercontent.com/58155187/127308168-95e5d5d0-8770-4bab-8dda-010d76d2ff66.png)
+- **Scaling** training and testing dataset:
+
+![image](https://user-images.githubusercontent.com/58155187/128085568-5a33f838-9187-48a2-b463-2c0bbd8afee9.png)
+
+- Define the **neural network** model:
+
+![image](https://user-images.githubusercontent.com/58155187/128085706-80fddcee-0663-4e34-9eb9-7dbd969f4bce.png)
+
+- **Compile** and **Evaluate** the model:
+
+![image](https://user-images.githubusercontent.com/58155187/128085771-729ef88a-3f85-4be7-bcd5-0a65646dea78.png)
+
 
 ## GitHub
 
-- The `main` branch has all data and codes in **Resources** folder. A copy of files relevant to *Segment-2* of the project, have been kept inside the **Segment_2** folder under the **FinalProject** folder.
+- The `main` branch has all data and codes in **Resources** folder. A copy of files relevant to *Segment-2* of the project, have been kept inside the **Segment_2** folder under the **FinalProject** folder; url: [Segment_2](https://github.com/moonem/FinalProject/tree/main/Segment_2).
 - A separate **MLS_matches_NN.ipynb** file is created to design the machine learning model; [file url:](https://github.com/moonem/FinalProject/blob/main/Segment_2/MLS_matches_NN.ipynb)
 - Communication protocols are defined in the **Readme.md** file for the project team.
 - Outline of the project is described in the Readme.md which is updated regularly as the teamwork is progressing every week.
 - Each of 4 team members have their individual brances. 
-- Each team member is uploading their commits to their respective branch and/or to the `main` project folder.
+- Each team member is uploading their commits to their respective branch and/or to the `main` and 'Segment_2' project folders.
 
 ## Database
 
-[Database snapshots are in the Readme @ Sean Tyson branch](https://github.com/moonem/FinalProject/tree/seantyson_branch/SeanTyson)
+Details of PostgreSQL database creation, exportin files to database, importing from database, joining files using SQL Query - have been discussed in the previous sections.
 
 ## Dashboard
 
