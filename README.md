@@ -201,6 +201,12 @@ input values (which are our *independent variables* commonly referred to as **mo
 
 ![image](https://user-images.githubusercontent.com/58155187/128085771-729ef88a-3f85-4be7-bcd5-0a65646dea78.png)
 
+### Findings from Deep Learning Model:
+
+- A team outcome for the “Win” in a game is predicted with 99% accuracy.
+- Observation:
+  - The accuracy of the model seems “too good to be true”.
+  - We’ve checked back again and made sure we followed all the steps we’ve learned in Module-19.
 
 ## GitHub
 
