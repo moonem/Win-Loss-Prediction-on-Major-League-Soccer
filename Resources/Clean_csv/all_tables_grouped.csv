@@ -1,0 +1,330 @@
+Club,Year,Pos,Games_Played,Wins,Losses,Draws,Goals_For,Goals_Against,Goal_Differential,Points
+Atlanta United FC,2017,4,34,15,9,10,70,40,30,55
+Atlanta United FC,2018,2,34,21,7,6,70,44,26,69
+Atlanta United FC,2019,3,34,18,12,4,58,43,15,58
+Atlanta United FC,2020,23,23,6,13,4,23,30,-7,22
+Atlanta United FC,2021,13,7,2,1,4,9,7,2,10
+Austin FC,2021,22,7,2,4,1,5,8,-3,7
+CF Montral,2012,12,34,12,16,6,45,51,-6,42
+CF Montral,2013,11,34,14,13,7,50,49,1,49
+CF Montral,2014,19,34,6,18,10,38,58,-20,28
+CF Montral,2015,7,34,15,13,6,48,44,4,51
+CF Montral,2016,11,34,11,11,12,49,53,-4,45
+CF Montral,2017,17,34,11,17,6,52,58,-6,39
+CF Montral,2018,15,34,14,16,4,47,53,-6,46
+CF Montral,2019,18,34,12,17,5,47,60,-13,41
+CF Montral,2020,18,23,8,13,2,33,43,-10,26
+CF Montral,2021,9,8,3,3,2,10,9,1,11
+Chicago Fire FC,2004,10,30,8,13,9,36,44,-8,33
+Chicago Fire FC,2005,4,32,15,13,4,49,50,-1,49
+Chicago Fire FC,2006,4,32,13,11,8,43,41,2,47
+Chicago Fire FC,2007,7,30,10,10,10,31,36,-5,40
+Chicago Fire FC,2008,3,30,13,10,7,44,33,11,46
+Chicago Fire FC,2009,5,30,11,7,12,39,34,5,45
+Chicago Fire FC,2010,10,30,9,12,9,37,38,-1,36
+Chicago Fire FC,2011,11,34,9,9,16,46,45,1,43
+Chicago Fire FC,2012,6,34,17,11,6,46,41,5,57
+Chicago Fire FC,2013,12,34,14,13,7,47,52,-5,49
+Chicago Fire FC,2014,15,34,6,10,18,41,51,-10,36
+Chicago Fire FC,2015,20,34,8,20,6,43,58,-15,30
+Chicago Fire FC,2016,20,34,7,17,10,42,58,-16,31
+Chicago Fire FC,2017,3,34,16,11,7,61,47,14,55
+Chicago Fire FC,2018,20,34,8,18,8,48,61,-13,32
+Chicago Fire FC,2019,17,34,10,12,12,55,47,8,42
+Chicago Fire FC,2020,22,23,5,10,8,33,39,-6,23
+Chicago Fire FC,2021,26,7,1,5,1,4,11,-7,4
+Chivas USA,2005,12,32,4,22,6,31,67,-36,18
+Chivas USA,2006,6,32,10,9,13,45,42,3,43
+Chivas USA,2007,2,30,15,7,8,46,28,18,53
+Chivas USA,2008,4,30,12,11,7,40,41,-1,43
+Chivas USA,2009,6,30,13,11,6,34,31,3,45
+Chivas USA,2010,15,30,8,18,4,31,45,-14,28
+Chivas USA,2011,15,34,8,14,12,41,43,-2,36
+Chivas USA,2012,18,34,7,18,9,24,58,-34,30
+Chivas USA,2013,18,34,6,20,8,30,67,-37,26
+Chivas USA,2014,16,34,9,19,6,29,61,-32,33
+Colorado Rapids,2004,5,30,10,9,11,29,32,-3,41
+Colorado Rapids,2005,7,32,13,13,6,40,37,3,45
+Colorado Rapids,2006,7,32,11,13,8,36,49,-13,41
+Colorado Rapids,2007,10,30,9,13,8,29,34,-5,35
+Colorado Rapids,2008,9,30,11,14,5,44,45,-1,38
+Colorado Rapids,2009,9,30,10,10,10,42,38,4,40
+Colorado Rapids,2010,7,30,12,8,10,44,32,12,46
+Colorado Rapids,2011,7,34,12,9,13,44,41,3,49
+Colorado Rapids,2012,14,34,11,19,4,44,50,-6,37
+Colorado Rapids,2013,8,34,14,11,9,45,38,7,51
+Colorado Rapids,2014,17,34,8,18,8,43,62,-19,32
+Colorado Rapids,2015,19,34,9,15,10,33,43,-10,37
+Colorado Rapids,2016,2,34,15,6,13,39,32,7,58
+Colorado Rapids,2017,20,34,9,19,6,31,51,-20,33
+Colorado Rapids,2018,21,34,8,19,7,36,63,-27,31
+Colorado Rapids,2019,16,34,12,16,6,58,63,-5,42
+Colorado Rapids,2020,10,18,8,6,4,32,28,4,28
+Colorado Rapids,2021,6,7,4,2,1,12,8,4,13
+Columbus Crew,2004,1,30,12,5,13,40,32,8,49
+Columbus Crew,2005,10,32,11,16,5,34,45,-11,38
+Columbus Crew,2006,12,32,8,15,9,30,42,-12,33
+Columbus Crew,2007,9,30,9,11,10,39,44,-5,37
+Columbus Crew,2008,1,30,17,7,6,50,36,14,57
+Columbus Crew,2009,1,30,13,7,10,41,31,10,49
+Columbus Crew,2010,5,30,14,8,8,40,34,6,50
+Columbus Crew,2011,9,34,13,13,8,43,44,-1,47
+Columbus Crew,2012,10,34,15,12,7,44,44,0,52
+Columbus Crew,2013,16,34,12,17,5,42,46,-4,41
+Columbus Crew,2014,7,34,14,10,10,52,42,10,52
+Columbus Crew,2015,4,34,15,11,8,58,53,5,53
+Columbus Crew,2016,18,34,8,14,12,50,58,-8,36
+Columbus Crew,2017,5,34,16,12,6,53,49,4,54
+Columbus Crew,2018,10,34,14,11,9,43,45,-2,51
+Columbus Crew,2019,20,34,10,16,8,39,47,-8,38
+Columbus Crew,2020,4,23,12,6,5,36,21,15,41
+Columbus Crew,2021,10,7,3,2,2,7,6,1,11
+D.C. United,2004,4,30,11,10,9,43,42,1,42
+D.C. United,2005,3,32,16,10,6,58,37,21,54
+D.C. United,2006,1,32,15,7,10,52,38,14,55
+D.C. United,2007,1,30,16,7,7,56,34,22,55
+D.C. United,2008,10,30,11,15,4,43,51,-8,37
+D.C. United,2009,10,30,9,8,13,43,44,-1,40
+D.C. United,2010,16,30,6,20,4,21,47,-26,22
+D.C. United,2011,13,34,9,13,12,49,52,-3,39
+D.C. United,2012,3,34,17,10,7,53,43,10,58
+D.C. United,2013,19,34,3,24,7,22,59,-37,16
+D.C. United,2014,3,34,17,9,8,52,37,15,59
+D.C. United,2015,8,34,15,13,6,43,45,-2,51
+D.C. United,2016,10,34,11,10,13,53,47,6,46
+D.C. United,2017,21,34,9,20,5,31,60,-29,32
+D.C. United,2018,9,34,14,11,9,60,50,10,51
+D.C. United,2019,10,34,13,10,11,42,38,4,50
+D.C. United,2020,24,23,5,12,6,25,41,-16,21
+D.C. United,2021,17,8,3,5,0,8,11,-3,9
+FC Cincinnati,2019,24,34,6,22,6,31,75,-44,24
+FC Cincinnati,2020,26,23,4,15,4,12,36,-24,16
+FC Cincinnati,2021,27,6,1,4,1,6,15,-9,4
+FC Dallas,2004,8,30,10,14,6,34,45,-11,36
+FC Dallas,2005,5,32,13,10,9,52,44,8,48
+FC Dallas,2006,2,32,16,12,4,48,44,4,52
+FC Dallas,2007,5,30,13,12,5,37,44,-7,44
+FC Dallas,2008,11,30,8,10,12,45,41,4,36
+FC Dallas,2009,11,30,11,13,6,50,47,3,39
+FC Dallas,2010,4,30,12,4,14,42,28,14,50
+FC Dallas,2011,4,34,15,12,7,42,39,3,52
+FC Dallas,2012,13,34,9,13,12,42,47,-5,39
+FC Dallas,2013,15,34,11,12,11,48,52,-4,44
+FC Dallas,2014,6,34,16,12,6,55,45,10,54
+FC Dallas,2015,2,34,18,10,6,52,39,13,60
+FC Dallas,2016,1,34,17,8,9,50,40,10,60
+FC Dallas,2017,13,34,11,10,13,48,48,0,46
+FC Dallas,2018,6,34,16,9,9,52,44,8,57
+FC Dallas,2019,13,34,13,12,9,54,46,8,48
+FC Dallas,2020,11,22,9,6,7,28,24,4,34
+FC Dallas,2021,24,7,1,3,3,8,11,-3,6
+Houston Dynamo FC,2006,5,32,11,8,13,44,40,4,46
+Houston Dynamo FC,2007,3,30,15,8,7,43,23,20,52
+Houston Dynamo FC,2008,2,30,13,5,12,45,32,13,51
+Houston Dynamo FC,2009,3,30,13,8,9,39,29,10,48
+Houston Dynamo FC,2010,12,30,9,15,6,40,49,-9,33
+Houston Dynamo FC,2011,6,34,12,9,13,45,41,4,49
+Houston Dynamo FC,2012,9,34,14,9,11,48,41,7,53
+Houston Dynamo FC,2013,9,34,14,11,9,41,41,0,51
+Houston Dynamo FC,2014,14,34,11,17,6,39,58,-19,39
+Houston Dynamo FC,2015,15,34,11,14,9,42,49,-7,42
+Houston Dynamo FC,2016,19,34,7,14,13,39,45,-6,34
+Houston Dynamo FC,2017,10,34,13,10,11,57,45,12,50
+Houston Dynamo FC,2018,17,34,10,16,8,58,58,0,38
+Houston Dynamo FC,2019,19,34,12,18,4,49,59,-10,40
+Houston Dynamo FC,2020,25,23,4,10,9,30,40,-10,21
+Houston Dynamo FC,2021,11,8,3,3,2,11,12,-1,11
+Inter Miami CF,2020,19,23,7,13,3,25,35,-10,24
+Inter Miami CF,2021,20,8,2,4,2,8,13,-5,8
+LA Galaxy,2004,3,30,11,9,10,42,40,2,43
+LA Galaxy,2005,8,32,13,13,6,44,45,-1,45
+LA Galaxy,2006,9,32,11,15,6,37,37,0,39
+LA Galaxy,2007,11,30,9,14,7,38,48,-10,34
+LA Galaxy,2008,13,30,8,13,9,55,62,-7,33
+LA Galaxy,2009,2,30,12,6,12,36,31,5,48
+LA Galaxy,2010,1,30,18,7,5,44,26,18,59
+LA Galaxy,2011,1,34,19,5,10,48,28,20,67
+LA Galaxy,2012,8,34,16,12,6,59,47,12,54
+LA Galaxy,2013,5,34,15,11,8,53,38,15,53
+LA Galaxy,2014,2,34,17,7,10,69,37,32,61
+LA Galaxy,2015,9,34,14,11,9,56,46,10,51
+LA Galaxy,2016,6,34,12,6,16,54,39,15,52
+LA Galaxy,2017,22,34,8,18,8,45,67,-22,32
+LA Galaxy,2018,13,34,13,12,9,66,64,2,48
+LA Galaxy,2019,8,34,16,15,3,58,59,-1,51
+LA Galaxy,2020,20,22,6,12,4,27,46,-19,22
+LA Galaxy,2021,4,7,5,2,0,11,11,0,15
+Los Angeles FC,2018,5,34,16,9,9,68,52,16,57
+Los Angeles FC,2019,1,34,21,4,9,85,37,48,72
+Los Angeles FC,2020,12,22,9,8,5,47,39,8,32
+Los Angeles FC,2021,19,7,2,3,2,8,9,-1,8
+Minnesota United FC,2017,19,34,10,18,6,47,70,-23,36
+Minnesota United FC,2018,18,34,11,20,3,49,71,-22,36
+Minnesota United FC,2019,7,34,15,11,8,52,43,9,53
+Minnesota United FC,2020,9,21,9,5,7,36,26,10,34
+Minnesota United FC,2021,23,7,2,4,1,6,11,-5,7
+Nashville SC,2020,14,23,8,7,8,24,22,2,32
+Nashville SC,2021,12,7,2,0,5,9,6,3,11
+New England Revolution,2004,9,30,8,13,9,42,43,-1,33
+New England Revolution,2005,2,32,17,7,8,55,37,18,59
+New England Revolution,2006,3,32,12,8,12,39,35,4,48
+New England Revolution,2007,4,30,14,8,8,51,43,8,50
+New England Revolution,2008,5,30,12,11,7,40,43,-3,43
+New England Revolution,2009,7,30,11,10,9,33,37,-4,42
+New England Revolution,2010,13,30,9,16,5,32,50,-18,32
+New England Revolution,2011,17,34,5,16,13,38,58,-20,28
+New England Revolution,2012,16,34,9,17,8,39,44,-5,35
+New England Revolution,2013,7,34,14,11,9,49,38,11,51
+New England Revolution,2014,5,34,17,13,4,51,46,5,55
+New England Revolution,2015,11,34,14,12,8,48,47,1,50
+New England Revolution,2016,14,34,11,14,9,44,54,-10,42
+New England Revolution,2017,15,34,13,15,6,53,61,-8,45
+New England Revolution,2018,16,34,10,13,11,49,55,-6,41
+New England Revolution,2019,14,34,11,11,12,50,57,-7,45
+New England Revolution,2020,15,23,8,7,8,26,25,1,32
+New England Revolution,2021,2,8,5,1,2,11,7,4,17
+New York City FC,2015,17,34,10,17,7,49,58,-9,37
+New York City FC,2016,4,34,15,10,9,62,57,5,54
+New York City FC,2017,2,34,16,9,9,56,43,13,57
+New York City FC,2018,7,34,16,10,8,59,45,14,56
+New York City FC,2019,2,34,18,6,10,63,42,21,64
+New York City FC,2020,7,23,12,8,3,37,25,12,39
+New York City FC,2021,8,7,3,2,2,13,7,6,11
+New York City Red Bulls,2004,6,30,11,12,7,47,49,-2,40
+New York City Red Bulls,2005,6,32,12,9,11,53,49,4,47
+New York City Red Bulls,2006,8,32,9,11,12,41,41,0,39
+New York City Red Bulls,2007,6,30,12,11,7,47,45,2,43
+New York City Red Bulls,2008,8,30,10,11,9,42,48,-6,39
+New York City Red Bulls,2009,15,30,5,19,6,27,47,-20,21
+New York City Red Bulls,2010,3,30,15,9,6,38,29,9,51
+New York City Red Bulls,2011,10,34,10,8,16,50,44,6,46
+New York City Red Bulls,2012,4,34,16,9,9,57,46,11,57
+New York City Red Bulls,2013,1,34,17,9,8,58,41,17,59
+New York City Red Bulls,2014,8,34,13,10,11,55,50,5,50
+New York City Red Bulls,2015,1,34,18,10,6,62,43,19,60
+New York City Red Bulls,2016,3,34,16,9,9,61,44,17,57
+New York City Red Bulls,2017,9,34,14,12,8,53,47,6,50
+New York City Red Bulls,2018,1,34,22,7,5,62,33,29,71
+New York City Red Bulls,2019,12,34,14,14,6,53,51,2,48
+New York City Red Bulls,2020,13,23,9,9,5,29,31,-2,32
+New York City Red Bulls,2021,16,7,3,4,0,10,10,0,9
+Orlando City SC,2015,14,34,12,14,8,46,56,-10,44
+Orlando City SC,2016,15,34,9,11,14,55,60,-5,41
+Orlando City SC,2017,18,34,10,15,9,39,58,-19,39
+Orlando City SC,2018,22,34,8,22,4,43,74,-31,28
+Orlando City SC,2019,22,34,9,15,10,44,52,-8,37
+Orlando City SC,2020,5,23,11,4,8,40,25,15,41
+Orlando City SC,2021,7,7,3,1,3,8,4,4,12
+Philadelphia Union,2010,14,30,8,15,7,35,49,-14,31
+Philadelphia Union,2011,8,34,11,8,15,44,36,8,48
+Philadelphia Union,2012,15,34,10,18,6,37,45,-8,36
+Philadelphia Union,2013,14,34,12,12,10,42,44,-2,46
+Philadelphia Union,2014,12,34,10,12,12,51,51,0,42
+Philadelphia Union,2015,18,34,10,17,7,42,55,-13,37
+Philadelphia Union,2016,13,34,11,14,9,52,55,-3,42
+Philadelphia Union,2017,16,34,11,14,9,50,47,3,42
+Philadelphia Union,2018,11,34,15,14,5,49,50,-1,50
+Philadelphia Union,2019,5,34,16,11,7,58,50,8,55
+Philadelphia Union,2020,1,23,14,4,5,44,20,24,47
+Philadelphia Union,2021,5,8,4,2,2,9,5,4,14
+Portland Timbers,2011,12,34,11,14,9,40,48,-8,42
+Portland Timbers,2012,17,34,8,16,10,34,56,-22,34
+Portland Timbers,2013,3,34,14,5,15,54,33,21,57
+Portland Timbers,2014,11,34,12,9,13,61,52,9,49
+Portland Timbers,2015,5,34,15,11,8,41,39,2,53
+Portland Timbers,2016,12,34,12,14,8,48,53,-5,44
+Portland Timbers,2017,6,34,15,11,8,60,50,10,53
+Portland Timbers,2018,8,34,15,10,9,54,48,6,54
+Portland Timbers,2019,11,34,14,13,7,52,49,3,49
+Portland Timbers,2020,8,23,11,6,6,46,35,11,39
+Portland Timbers,2021,15,7,3,4,0,9,11,-2,9
+Real Salt Lake,2005,11,32,5,22,5,30,65,-35,20
+Real Salt Lake,2006,10,32,10,13,9,45,49,-4,39
+Real Salt Lake,2007,12,30,6,15,9,31,45,-14,27
+Real Salt Lake,2008,7,30,10,10,10,40,39,1,40
+Real Salt Lake,2009,8,30,11,12,7,43,35,8,40
+Real Salt Lake,2010,2,30,15,4,11,45,20,25,56
+Real Salt Lake,2011,3,34,15,11,8,44,36,8,53
+Real Salt Lake,2012,5,34,17,11,6,46,35,11,57
+Real Salt Lake,2013,4,34,16,10,8,57,41,16,56
+Real Salt Lake,2014,4,34,15,8,11,54,39,15,56
+Real Salt Lake,2015,16,34,11,15,8,38,48,-10,41
+Real Salt Lake,2016,9,34,12,12,10,44,46,-2,46
+Real Salt Lake,2017,14,34,13,15,6,49,55,-6,45
+Real Salt Lake,2018,12,34,14,13,7,55,58,-3,49
+Real Salt Lake,2019,6,34,16,13,5,46,41,5,53
+Real Salt Lake,2020,21,22,5,10,7,25,35,-10,22
+Real Salt Lake,2021,18,6,2,1,3,9,7,2,9
+San Jose Earthquakes,2004,7,30,9,10,11,41,35,6,38
+San Jose Earthquakes,2005,1,32,18,4,10,53,31,22,64
+San Jose Earthquakes,2008,14,30,8,13,9,32,38,-6,33
+San Jose Earthquakes,2009,14,30,7,14,9,36,50,-14,30
+San Jose Earthquakes,2010,8,30,13,10,7,34,33,1,46
+San Jose Earthquakes,2011,14,34,8,12,14,40,45,-5,38
+San Jose Earthquakes,2012,1,34,19,6,9,72,43,29,66
+San Jose Earthquakes,2013,10,34,14,11,9,35,42,-7,51
+San Jose Earthquakes,2014,18,34,6,16,12,35,50,-15,30
+San Jose Earthquakes,2015,13,34,13,13,8,41,39,2,47
+San Jose Earthquakes,2016,17,34,8,12,14,32,40,-8,38
+San Jose Earthquakes,2017,12,34,13,14,7,39,60,-21,46
+San Jose Earthquakes,2018,23,34,4,21,9,49,71,-22,21
+San Jose Earthquakes,2019,15,34,13,16,5,52,55,-3,44
+San Jose Earthquakes,2020,16,23,8,9,6,35,51,-16,30
+San Jose Earthquakes,2021,14,8,3,5,0,11,12,-1,9
+Seattle Sounders FC,2009,4,30,12,7,11,38,29,9,47
+Seattle Sounders FC,2010,6,30,14,10,6,39,35,4,48
+Seattle Sounders FC,2011,2,34,18,7,9,56,37,19,63
+Seattle Sounders FC,2012,7,34,15,8,11,51,33,18,56
+Seattle Sounders FC,2013,6,34,15,12,7,42,42,0,52
+Seattle Sounders FC,2014,1,34,20,10,4,65,50,15,64
+Seattle Sounders FC,2015,6,34,15,13,6,44,36,8,51
+Seattle Sounders FC,2016,7,34,14,14,6,44,43,1,48
+Seattle Sounders FC,2017,7,34,14,9,11,52,39,13,53
+Seattle Sounders FC,2018,4,34,18,11,5,52,37,15,59
+Seattle Sounders FC,2019,4,34,16,10,8,52,49,3,56
+Seattle Sounders FC,2020,6,22,11,5,6,44,23,21,39
+Seattle Sounders FC,2021,1,8,5,0,3,14,3,11,18
+Sporting Kansas City,2004,2,30,14,9,7,38,30,8,49
+Sporting Kansas City,2005,9,32,11,9,12,52,44,8,45
+Sporting Kansas City,2006,11,32,10,14,8,43,45,-2,38
+Sporting Kansas City,2007,8,30,11,12,7,45,45,0,40
+Sporting Kansas City,2008,6,30,11,10,9,37,39,-2,42
+Sporting Kansas City,2009,13,30,8,13,9,33,42,-9,33
+Sporting Kansas City,2010,9,30,11,13,6,36,35,1,39
+Sporting Kansas City,2011,5,34,13,9,12,50,40,10,51
+Sporting Kansas City,2012,2,34,18,7,9,42,27,15,63
+Sporting Kansas City,2013,2,34,17,10,7,47,30,17,58
+Sporting Kansas City,2014,10,34,14,13,7,48,41,7,49
+Sporting Kansas City,2015,10,34,14,11,9,48,45,3,51
+Sporting Kansas City,2016,8,34,13,13,8,42,41,1,47
+Sporting Kansas City,2017,11,34,12,9,13,40,29,11,49
+Sporting Kansas City,2018,3,34,18,8,8,65,40,25,62
+Sporting Kansas City,2019,21,34,10,16,8,49,67,-18,38
+Sporting Kansas City,2020,3,21,12,6,3,38,25,13,39
+Sporting Kansas City,2021,3,8,5,2,1,15,10,5,16
+Toronto FC,2007,13,30,6,17,7,25,49,-24,25
+Toronto FC,2008,12,30,9,13,8,34,43,-9,35
+Toronto FC,2009,12,30,10,11,9,37,46,-9,39
+Toronto FC,2010,11,30,9,13,8,33,41,-8,35
+Toronto FC,2011,16,34,6,13,15,36,59,-23,33
+Toronto FC,2012,19,34,5,21,8,36,62,-26,23
+Toronto FC,2013,17,34,6,17,11,30,47,-17,29
+Toronto FC,2014,13,34,11,15,8,44,54,-10,41
+Toronto FC,2015,12,34,15,15,4,58,58,0,49
+Toronto FC,2016,5,34,14,9,11,51,39,12,53
+Toronto FC,2017,1,34,20,5,9,74,37,37,69
+Toronto FC,2018,19,34,10,18,6,59,64,-5,36
+Toronto FC,2019,9,34,13,10,11,57,52,5,50
+Toronto FC,2020,2,23,13,5,5,33,26,7,44
+Toronto FC,2021,25,7,1,4,2,8,12,-4,5
+Vancouver Whitecaps FC,2011,18,34,6,18,10,35,55,-20,28
+Vancouver Whitecaps FC,2012,11,34,11,13,10,35,41,-6,43
+Vancouver Whitecaps FC,2013,13,34,13,12,9,53,45,8,48
+Vancouver Whitecaps FC,2014,9,34,12,8,14,42,40,2,50
+Vancouver Whitecaps FC,2015,3,34,16,13,5,45,36,9,53
+Vancouver Whitecaps FC,2016,16,34,10,15,9,45,52,-7,39
+Vancouver Whitecaps FC,2017,8,34,15,12,7,50,49,1,52
+Vancouver Whitecaps FC,2018,14,34,13,13,8,54,67,-13,47
+Vancouver Whitecaps FC,2019,23,34,8,16,10,37,59,-22,34
+Vancouver Whitecaps FC,2020,17,23,9,14,0,27,44,-17,27
+Vancouver Whitecaps FC,2021,21,7,2,4,1,6,9,-3,7
