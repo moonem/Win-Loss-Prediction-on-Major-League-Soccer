@@ -79,6 +79,12 @@ Our team has 4 members. Coincidentally our data source has also 4 key *.csv* fil
 
   ## Segment 2
   
+  **Segment 2 project work is merged with Segment 3 including additional progress on the project.** 
+  
+  ## Segment 3
+  
+  **Segment 3 is a continuation of other two Segments' work presented before.**
+  
   ## Presentation
 
 [google slides](https://docs.google.com/presentation/d/1b0U9tTp1LIhrh8zkYAMvX0BZqA8qRPFrOiRTJiwtGKI/edit?usp=sharing)
