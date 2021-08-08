@@ -114,27 +114,59 @@ Our team decided on this project because our home city, Austin, Texas, recently 
 In the data exploration stage, each member worked on their own .csv file to understand the data content i.e., columns, empty or null values. 
 
 The key task in exploration was - 
-- To understand most of the abbreviated column headers using Google search and match key columns (e.g., Team / CLub) with all 4 .csv files;
-- Deciding which columns seem insignificant in decision making and may be dropped; 
-- Identifying columns with data anomaly which needed to be cleaned.
+- To **understand** most of the abbreviated column headers using Google search and match key columns (e.g., Team / CLub) with all 4 .csv files;
+- **Deciding** which columns seem insignificant in decision making and may be dropped; 
+- **Identify**ing columns with data anomaly which needed to be cleaned.
+- Since we’re targeting to predict game outcome for our home team Austin FC and **Austin FC** has only data from 2020 onward, we decided to drop most of the “home-” related columns to make the prediction more meaningful.
+- Decided to use only those data that can be **known prior** to the game starts, e.g., **team, venue, date, day, time, attendance**, and previous average performance of away teams (calculated).
 
 ### Data Analysis and Cleaning
 
 Following steps summarize the process of data analysis including data cleaning where necessary,
 
-- Updated column titles for clarity
-- Fixed Goal_Differential calculation errors
-- Removed all data prior to 2004 (due to most of the columns having null values)
-- Removed seemingly insignificant data column
-- Cleaned, renamed mismatching club names
-- Removed duplicate entries
-- Applied regex on a date column with anomaly in entry
-- Fixed Points column calculations
-- Reordered columns for clarity
-- Exported the cleaned .csv files to the project folder
-- These clean files are used in DB forming and ML processing phases
+1. Data **Exploration** - datatype, useful columns, deciding on NULL values
+2. Data **Cleaning**:
+  - Updated column titles for clarity
+  - Removed all data prior to 2004 (due to most of the columns having null values)
+  - Removed seemingly insignificant data column
+  - Renamed mismatching club names, venue names
+  - Removed duplicate entries, e.g., venue names, team names
+  - Applied **regex** on a date column with anomaly in entry
+  - Created **functions** to fill in NULL values
+  - Reordered columns for clarity
+3. **Created** Database - ERD with matches, players, goalkeepers and tables data
+4. **Exported** the cleaned **.csv files to** the project folder and **major_league_soccer DB**
+5. **Imported** / read clean files **from DB** for ML processing phases
+6. **Neural Network model**:
+  - **Preprocessing**: Binning/bucketing of categorical variables > OneHotEncoding > StandardScaler
+  - Defining NN model > **Compile > Train > Evaluate**.
+
 
 The following figure shows an example of **data cleaning** process,
+
+Initially the imported `.csv` file had 6693 rows of data with `Null` values in key columns as shown in the following figure:
+
+![Null data before](https://user-images.githubusercontent.com/58155187/128642249-b8ffb1da-8e66-4869-bde1-e2a6c182a301.png)
+
+As we can see there are 2355 `Null` entries under the `attendance` column. This columns is a key-column for our analysis and we can't drop almost one-third of the rows because of it. So we decided to fill the null values using the **average attendance** of the same `venue` for all other matches. This is not an easy task to do manually for more than 100 unique venues. Therefore, we've deveoped an functional code using `for-if` statements, as shown below, to fill in the empty `attendance` rows.
+
+![average_attendace_code](https://user-images.githubusercontent.com/58155187/128642423-f42476f3-6c32-4852-9529-5f258429746b.png)
+
+The `venue` column had some duplicate venues having a slight difference in naming, e.g., both *'Cotton Bowl', "Cotton Bowl, Dallas"* are the same venue. We had to identify duplicates from 115 venues and cleaned them down to 80 unique venues, as shown below:
+
+![duplicate venues](https://user-images.githubusercontent.com/58155187/128642572-9ef6cf5c-2c86-4b22-ae6e-4e8ea25ff07d.png)
+
+There were 467 entries of `Null` values under `venue` column. We assumed the `home` team should play in their *home venue*, and based on this assumption we created two lists `key_teams` and `value_venues` to create a mapping **dictionary** to fill in the null venues using followin code block:
+
+![team-venue dictionary](https://user-images.githubusercontent.com/58155187/128642735-786b86b0-f151-48a9-9cc3-ed6534c9bf39.png)
+
+![code to fillin venue](https://user-images.githubusercontent.com/58155187/128642772-e3162015-efc6-41eb-aefc-e7a705e1b894.png)
+
+After cleaning these 2 key-columns the dataset became almost free of `Null` values except the `time (utc)` column which later we decided to drop.
+
+![Null data After](https://user-images.githubusercontent.com/58155187/128642842-eb7e8e42-074c-4da2-bb76-a1b4aceddf32.png)
+
+There have been a few more cleaning steps required to get data with consistent data types.
 
 ![data_cleaning](https://user-images.githubusercontent.com/58155187/128083380-48edef5c-7b45-4041-a0ee-ace6d8f3e168.png)
 
@@ -209,10 +241,10 @@ input values (which are our *independent variables* commonly referred to as **mo
 
 ### Findings from Deep Learning Model:
 
-- A team outcome for the “Win” in a game is predicted with 99% accuracy.
+- A team outcome for the “Win” in a game is predicted with 58% accuracy.
 - Observation:
-  - The accuracy of the model seems “too good to be true”.
-  - We’ve checked back again and made sure we followed all the steps we’ve learned in Module-19.
+  - The accuracy of the model seems “fair enough”.
+  - We’ve checked back again and made sure we followed all the steps we’ve learned in Module-19. To improved the prediction accuracy we cleaned and added more feature data and optimized parameters; finally accuracy improved from 53% to 58%.
 
 ## GitHub
 
