@@ -239,7 +239,7 @@ input values (which are our *independent variables* commonly referred to as **mo
 
 - **Compile** and **Evaluate** the model:
 
-We've tried `mean_squared_error` to evaluate `loss` metric but found that `binary_crossentropy` shows `loss` almost 10 times higher.
+We've tried `mean_squared_error` to evaluate `loss` metric but found that `binary_crossentropy` shows `loss` almost 10 times higher with sight change in `accuracy`.
 
 **loss** with `binary_crossentropy`:
 
