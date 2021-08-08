@@ -1,6 +1,8 @@
 # FinalProject
 Predict outcome based on sports data.
 
+** All updates are incorporated under the `Main` branch.**
+
 ## On 19th July 2021:
 
 I deleted the rows with data up to year 2003 from the .csv files and kept data only 2004 onward up to 2021 except the *all_players.csv* had data up to 2020.
