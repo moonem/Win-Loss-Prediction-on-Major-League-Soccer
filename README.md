@@ -193,7 +193,7 @@ For Deep Learning preprocessing, data tables are imported from the SQL database 
 
 ## Machine Learning Model
 
-[MLS_matches_NN.ipynb](https://github.com/moonem/FinalProject/blob/main/Segment_2/MLS_matches_NN.ipynb)
+[MLS_matches_NN.ipynb](https://github.com/moonem/FinalProject/blob/main/Segment_3/match_clean_NN.ipynb)
 
 In order to predict a team's outcome in a game we chose **Neural Network** based **Deep Learning** algorithm. As the decision is kind of binary *yes / no*, we could choose other simpler *regression* based prediction algorithm also. Since neural network based algorithm provides better accuracy even with non-linear data relationship, *we preferred Deep Learning Model* over other prediction models.
 
@@ -213,9 +213,9 @@ In order to predict a team's outcome in a game we chose **Neural Network** based
 
 ![image](https://user-images.githubusercontent.com/58155187/128085043-f220b549-e1c9-4a49-b9bf-3f5e07dfa03a.png)
 
-- **Merging** `encode_df` with original `mls_matches`:
+- **Merging** `encode_df` with original `game_df`:
 
-![image](https://user-images.githubusercontent.com/58155187/128085209-2f2507cc-89a8-4e53-b83e-606ad9dbe3ec.png)
+![encoded merge](https://user-images.githubusercontent.com/58155187/128643610-044eb88d-d5eb-4fe0-ad75-6713232c4071.png)
 
 - Define **features (X)** and **output (y)** in the *training* and *test* dataset :
 
@@ -232,12 +232,19 @@ input values (which are our *independent variables* commonly referred to as **mo
 ![image](https://user-images.githubusercontent.com/58155187/128085568-5a33f838-9187-48a2-b463-2c0bbd8afee9.png)
 
 - Define the **neural network** model:
+  
+  We've tried different activation functions, such as `tanh` and `linear` in middle layers and but `relu` provided slightly better result in model fitting and evaluation. Since, our intended outcome is **Win** or **Not Win**, a binary classifier, we've chosen `sigmoid` in the output layer.
 
-![image](https://user-images.githubusercontent.com/58155187/128085706-80fddcee-0663-4e34-9eb9-7dbd969f4bce.png)
+![NN model match_clean](https://user-images.githubusercontent.com/58155187/128643651-8aaf2017-3f2e-4194-a4ed-61164e565467.png)
 
 - **Compile** and **Evaluate** the model:
 
-![image](https://user-images.githubusercontent.com/58155187/128085771-729ef88a-3f85-4be7-bcd5-0a65646dea78.png)
+We've tried `mean_squared_error` to evaluate `loss` metric but found that `binary_crossentropy`
+
+![loss(binaryEntropy)](https://user-images.githubusercontent.com/58155187/128643751-89434ee1-f379-4300-ab13-3938fc753675.png)
+
+![loss(mse)](https://user-images.githubusercontent.com/58155187/128643879-f47d41a9-b14b-4cb5-8984-eb34ae0f0d9e.png)
+
 
 ### Findings from Deep Learning Model:
 
