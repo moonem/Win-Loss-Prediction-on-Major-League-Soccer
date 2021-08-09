@@ -191,4 +191,15 @@ Details of PostgreSQL database creation, exportin files to database, importing f
 
 We will be presenting our analysis on Tableau, an interactive data visualization tool. The presentation will be in the form of a multi-dashboard Tableau story hosted online on Tableau Public. 
 
-Our dashboards will incorporate historical data in the form of various team and player statistics from previous MLS seasons. We will be filtering our data by team and using team logo images as part of our filter-selection features. After selecting a team logo, the dashboard will present statistics like last year's top scorer, the team's record over the years, and data on average stadium attendance rates, among others.
+Our dashboards will incorporate historical data in the form of various team and player statistics from previous MLS seasons. We filtered our data by team and using team logo images as part of our filter-selection features. After selecting a team logo, the dashboard will present statistics like last year's top scorer, the team's record over the years, and data on average stadium attendance rates, among others.
+
+[dashboard image 1](C:\Users\mamoo\UT_DataScience\UTA-VIRT-DATA-PT-02-2021-U-B\FinalProject\Resources\Images\MLS_Dashboard_Screenshot1.png)
+
+[dashboard image 2](C:\Users\mamoo\UT_DataScience\UTA-VIRT-DATA-PT-02-2021-U-B\FinalProject\Resources\Images\MLS_Dashboard_Screenshot2.png)
+
+[dashboard image 3](C:\Users\mamoo\UT_DataScience\UTA-VIRT-DATA-PT-02-2021-U-B\FinalProject\Resources\Images\MLS_Dashboard_Screenshot3.png)
+
+[dashboard Movie](C:\Users\mamoo\UT_DataScience\UTA-VIRT-DATA-PT-02-2021-U-B\FinalProject\Resources\Images\MLS_Dashboard_Demon.mov)
+
+
+
