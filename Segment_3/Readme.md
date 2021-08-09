@@ -195,11 +195,11 @@ Our dashboards will incorporate historical data in the form of various team and 
 
 ![dashboard image 1](https://github.com/moonem/FinalProject/tree/main/Resources/Images/MLS_Dashboard_Screenshot1.png)
 
-[dashboard image 2](https://github.com/moonem/FinalProject/tree/main/Resources/Images/MLS_Dashboard_Screenshot2.png)
+![dashboard image 2](https://github.com/moonem/FinalProject/tree/main/Resources/Images/MLS_Dashboard_Screenshot2.png)
 
-[dashboard image 3](https://github.com/moonem/FinalProject/tree/main/Resources/Images/MLS_Dashboard_Screenshot3.png)
+![dashboard image 3](https://github.com/moonem/FinalProject/tree/main/Resources/Images/MLS_Dashboard_Screenshot3.png)
 
-[dashboard Movie](https://github.com/moonem/FinalProject/tree/main/Resources/Images/MLS_Dashboard_Demon.mov)
+![dashboard Movie](https://github.com/moonem/FinalProject/tree/main/Resources/Images/MLS_Dashboard_Demo.mov)
 
 
 
