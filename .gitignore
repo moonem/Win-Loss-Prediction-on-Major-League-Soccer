@@ -1,3 +1,7 @@
+# hiding extra files from FinalProject
+.DS_store
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
