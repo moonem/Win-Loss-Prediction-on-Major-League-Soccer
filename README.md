@@ -233,15 +233,40 @@ input values (which are our *independent variables* commonly referred to as **mo
 
 ![image](https://user-images.githubusercontent.com/58155187/128085568-5a33f838-9187-48a2-b463-2c0bbd8afee9.png)
 
-- Define the **neural network** model:
+- Choice of the Machine Learning Model:
+
+Since we're working on major league soccer match data to predict the outcome whether **Win or Not**; the scope of outcome is known. Therefore, **Supervised ML Model** is a good fit for our prediction. Also, our prediction type falls under **Binary Classification**, so we chose to build a Neural Network based **Deep Learning** model for our project.
+
+- Pros:
+
+**Neural Network** based **Deep Learning Model** is a popular choice among maching learning model because of its 
+
+- better **accuracy** in evaluating test data, and 
+- ability to model **non-linear** relationship. 
+
+- Cons:
+
+- Although Neural Network model is like a **blackbox and hard to explain**.
+- Needs very good quality **clean data**;
+- **Prone to over-fitting** model which affects the performance in matching model with real test dataset.
+
+- Define Neural Network model
+
+For our **input layer**, we must add the **number of input features equal to the number of variables in our feature** DataFrame.
+
+In our **hidden layers**, we'll add **three hidden layers** with only a few neurons in each layer. To create the *second hidden layer*, we'll add another **Keras Dense class** while defining our model. All of our hidden layers will use the **relu activation** function to identify nonlinear characteristics from the input values.
+
+In the **output layer**, we'll use the `sigmoid` activation function that will help us predict the probability that a team is winning or not.
   
   We've tried different activation functions, such as `tanh` and `linear` in middle layers and but `relu` provided slightly better result in model fitting and evaluation. Since, our intended outcome is **Win** or **Not Win**, a binary classifier, we've chosen `sigmoid` in the output layer.
 
 ![NN model match_clean](https://user-images.githubusercontent.com/58155187/128643651-8aaf2017-3f2e-4194-a4ed-61164e565467.png)
 
-- **Compile** and **Evaluate** the model:
+- **Compile** and **Evaluate** the NN model:
 
-We've tried `mean_squared_error` to evaluate `loss` metric but found that `binary_crossentropy` shows `loss` almost 10 times higher with sight change in `accuracy`.
+During compilation, we've tried both `binary_crossentropy` and `mean_squared_error` to measue loss in model evaluation. We found `mean_squared_error` provides almost 10 times  **lower loss** metric for almost similar percentage of accuracy.
+
+For **optimizer** `adam` is widely used and effective for NN model.
 
 **loss** with `binary_crossentropy`:
 
@@ -251,20 +276,18 @@ We've tried `mean_squared_error` to evaluate `loss` metric but found that `binar
 
 ![loss(mse)](https://user-images.githubusercontent.com/58155187/128643879-f47d41a9-b14b-4cb5-8984-eb34ae0f0d9e.png)
 
+### Model Evaluation:
 
-### Findings from Deep Learning Model:
+It looks like the model is fit pretty well in 100 epochs with less than **1% loss**.
 
-- A team outcome for the “Win” in a game is predicted with 58% accuracy.
-- Observation:
-  - The accuracy of the model seems “fair enough”.
-  - We’ve checked back again and made sure we followed all the steps we’ve learned in Module-19. To improved the prediction accuracy we cleaned and added more feature data and optimized parameters; finally accuracy improved from 53% to 58%.
+While running on **test-data** the model is evaluated to predict the **Win** outcome of a game **57.6% times accurate**. We got an accuracy of 51% and 53% in our previous models. We went back to our dataset and added some more features prepared from "average grouped" data. This addition along with **optimization** of the model brough us a good increase in accuracy.
+
+This is not a high accuracy metric, but based on our available realistic input data prior to a game starts, this prediction seems to be **fair enough**
 
 ## GitHub
 
-- The `main` branch has all data and codes in **Resources** folder. A copy of files relevant to *Segment-2* of the project, have been kept inside the **Segment_2, -3** folder(s) under the **FinalProject** folder; url: [Segment_2](https://github.com/moonem/FinalProject/tree/main/Segment_2).
-
-[Segment-3 link](https://github.com/moonem/FinalProject/tree/main/Segment_3)
-- A separate **match_clean_NN.ipynb** file is created to design the machine learning model; [file url:](https://github.com/moonem/FinalProject/blob/main/Segment_3/match_clean_NN.ipynb)
+- The `main` branch has all data and codes in **Resources** folder. A copy of files relevant to *Segment-3* of the project, have been kept inside the **Segment_3** folder under the **FinalProject** folder; url: [Segment_3](https://github.com/moonem/FinalProject/tree/main/Segment_3).
+- A separate **match_clean_NN.ipynb** file is created to design the machine learning model; [file url:](https://github.com/moonem/FinalProject/Resources/all_ipynb/match_clean_NN.ipynb)
 - Communication protocols are defined in the **Readme.md** file for the project team.
 - Outline of the project is described in the Readme.md which is updated regularly as the teamwork is progressing every week.
 - Each of 4 team members have their individual brances. 
