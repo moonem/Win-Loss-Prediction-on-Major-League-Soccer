@@ -237,14 +237,14 @@ input values (which are our *independent variables* commonly referred to as **mo
 
 Since we're working on major league soccer match data to predict the outcome whether **Win or Not**; the scope of outcome is known. Therefore, **Supervised ML Model** is a good fit for our prediction. Also, our prediction type falls under **Binary Classification**, so we chose to build a Neural Network based **Deep Learning** model for our project.
 
-- Pros:
+  - Pros:
 
 **Neural Network** based **Deep Learning Model** is a popular choice among maching learning model because of its 
 
 - better **accuracy** in evaluating test data, and 
 - ability to model **non-linear** relationship. 
 
-- Cons:
+  - Cons:
 
 - Although Neural Network model is like a **blackbox and hard to explain**.
 - Needs very good quality **clean data**;
