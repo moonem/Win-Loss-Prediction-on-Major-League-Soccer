@@ -193,13 +193,13 @@ We will be presenting our analysis on Tableau, an interactive data visualization
 
 Our dashboards will incorporate historical data in the form of various team and player statistics from previous MLS seasons. We filtered our data by team and using team logo images as part of our filter-selection features. After selecting a team logo, the dashboard will present statistics like last year's top scorer, the team's record over the years, and data on average stadium attendance rates, among others.
 
-![dashboard image 1](https://github.com/moonem/FinalProject/tree/main/Resources/Images/MLS_Dashboard_Screenshot1.png)
+![dashboard image 1](https://drive.google.com/file/d/1rbAqDhGwEDbDec6BgJ0yeLay89Pw2nre/view?usp=sharing)
 
-![dashboard image 2](https://github.com/moonem/FinalProject/tree/main/Resources/Images/MLS_Dashboard_Screenshot2.png)
+![dashboard image 2](https://drive.google.com/file/d/1jx0aIF-jvOsZPLnrrDvHEjhoXfBbam2q/view?usp=sharing)
 
-![dashboard image 3](https://github.com/moonem/FinalProject/tree/main/Resources/Images/MLS_Dashboard_Screenshot3.png)
+![dashboard image 3](https://drive.google.com/file/d/1I_BacWb6ySUhYBZGA913LTiOZdxV3r2-/view?usp=sharing)
 
-![dashboard Movie](https://github.com/moonem/FinalProject/tree/main/Resources/Images/MLS_Dashboard_Demo.mov)
+![dashboard Movie](https://drive.google.com/file/d/1tDt5H8qEujCfAFWTHFXx7RLfz_4uyTQe/view?usp=sharing)
 
 
 
