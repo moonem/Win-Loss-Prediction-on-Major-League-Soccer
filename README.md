@@ -195,7 +195,7 @@ For Deep Learning preprocessing, data tables are imported from the SQL database 
 
 ## Machine Learning Model
 
-[MLS_matches_NN.ipynb](https://github.com/moonem/FinalProject/blob/main/Segment_3/match_clean_NN.ipynb)
+[match_clean_NN.ipynb](https://github.com/moonem/FinalProject/blob/main/Segment_3/match_clean_NN.ipynb)
 
 In order to predict a team's outcome in a game we chose **Neural Network** based **Deep Learning** algorithm. As the decision is kind of binary *yes / no*, we could choose other simpler *regression* based prediction algorithm also. Since neural network based algorithm provides better accuracy even with non-linear data relationship, *we preferred Deep Learning Model* over other prediction models.
 
