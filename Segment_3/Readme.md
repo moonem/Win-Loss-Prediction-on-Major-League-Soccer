@@ -114,27 +114,27 @@ For Deep Learning preprocessing, data tables are imported from the SQL database 
 
 In order to predict a team's outcome in a game we chose **Neural Network** based **Deep Learning** algorithm. As the decision is kind of binary *yes / no*, we could choose other simpler *regression* based prediction algorithm also. Since neural network based algorithm provides better accuracy even with non-linear data relationship, *we preferred Deep Learning Model* over other prediction models.
 
-  ### Data Preprocessing
+### Data Preprocessing
   
   The data on matches is imported from SQL localhost server to a jupyter notebook for preprocessing. Following image screeshots of the **MLS_matches_NN.ipynb** link: [jupyter notebook](https://github.com/moonem/FinalProject/blob/main/Segment_2/MLS_matches_NN.ipynb) shows the steps of data preprocessing.
   
-- Read data from SQL database:
+### Read data from SQL database:
   
   ![read_from_sql](https://user-images.githubusercontent.com/58155187/128084656-1c9a7470-1087-4df3-8c46-aa1b6107f6a8.png)
 
-- Check categorical variables for OneHotEncoding:
+### Check categorical variables for OneHotEncoding:
  
  ![image](https://user-images.githubusercontent.com/58155187/128084901-7e709ac0-3058-4508-b525-374349d752c2.png)
 
-- **OneHotEncoder** to encode categorical variables:
+### **OneHotEncoder** to encode categorical variables:
 
 ![image](https://user-images.githubusercontent.com/58155187/128085043-f220b549-e1c9-4a49-b9bf-3f5e07dfa03a.png)
 
-- **Merging** `encode_df` with original `game_df`:
+### **Merging** `encode_df` with original `game_df`:
 
 ![encoded merge](https://user-images.githubusercontent.com/58155187/128643610-044eb88d-d5eb-4fe0-ad75-6713232c4071.png)
 
-- Define **features (X)** and **output (y)** in the *training* and *test* dataset :
+### Define **features (X)** and **output (y)** in the *training* and *test* dataset :
 
 We need to **split** our **training** and **testing** data *before* fitting our **StandardScaler** instance. This <u> prevents testing data from influencing the standardization </u> function.
 
@@ -144,28 +144,28 @@ input values (which are our *independent variables* commonly referred to as **mo
 
 ![image](https://user-images.githubusercontent.com/58155187/128085484-825a5f7e-f654-47b5-b776-d1ec9e284bf2.png)
 
-- **Scaling** training and testing dataset:
+### **Scaling** training and testing dataset:
 
 ![image](https://user-images.githubusercontent.com/58155187/128085568-5a33f838-9187-48a2-b463-2c0bbd8afee9.png)
 
-- Choice of the Machine Learning Model:
+### Choice of the Machine Learning Model:
 
 Since we're working on major league soccer match data to predict the outcome whether **Win or Not**; the scope of outcome is known. Therefore, **Supervised ML Model** is a good fit for our prediction. Also, our prediction type falls under **Binary Classification**, so we chose to build a Neural Network based **Deep Learning** model for our project.
 
-  - Pros:
+ #### Pros:
 
 **Neural Network** based **Deep Learning Model** is a popular choice among maching learning model because of its 
 
 - better **accuracy** in evaluating test data, and 
 - ability to model **non-linear** relationship. 
 
-  - Cons:
+#### Cons:
 
 - Although Neural Network model is like a **blackbox and hard to explain**.
 - Needs very good quality **clean data**;
 - **Prone to over-fitting** model which affects the performance in matching model with real test dataset.
 
-- Define Neural Network model
+### Define Neural Network model
 
 For our **input layer**, we must add the **number of input features equal to the number of variables in our feature** DataFrame.
 
@@ -177,7 +177,7 @@ In the **output layer**, we'll use the `sigmoid` activation function that will h
 
 ![NN model match_clean](https://user-images.githubusercontent.com/58155187/128643651-8aaf2017-3f2e-4194-a4ed-61164e565467.png)
 
-- **Compile** and **Evaluate** the NN model:
+### **Compile** and **Evaluate** the NN model:
 
 During compilation, we've tried both `binary_crossentropy` and `mean_squared_error` to measue loss in model evaluation. We found `mean_squared_error` provides almost 10 times  **lower loss** metric for almost similar percentage of accuracy.
 
