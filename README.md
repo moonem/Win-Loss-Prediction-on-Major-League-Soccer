@@ -74,10 +74,10 @@ Team communication and project planning has been conducted through live video ca
   
 Our team has 4 members. Coincidentally our data source has also 4 key *.csv* files for the analysis. Each team-member cleaned one *.csv* data using **ETL** process and pushed to their respective branches as shown below. 
 
-1. Sean Tyson - all_tables_cleaned.csv, QuickDBD-export.png; [SeanTyson_Branch](https://github.com/moonem/FinalProject/tree/seantyson_branch/SeanTyson)
-2. M A Moonem - all_players_clean.csv; [Moonem_Branch](https://github.com/moonem/FinalProject/tree/moonem_branch/Resources)
-3. Daniel Gonzalez - matches_2004to2021.csv; [Daniel_Branch](https://github.com/moonem/FinalProject/tree/Daniel_Project/DanielGonzalez)
-4. Ben Reed - all_goalkeepers_clean.csv; [Ben Reed Branch](https://github.com/moonem/FinalProject/tree/main/BenReed)
+1. Sean Tyson - all_tables_cleaned.csv, QuickDBD-export.png; 
+2. M A Moonem - all_players_clean.csv; 
+3. Daniel Gonzalez - matches_2004to2021.csv; 
+4. Ben Reed - all_goalkeepers_clean.csv; 
 
   ## Segment 2
   
@@ -201,13 +201,13 @@ For Deep Learning preprocessing, data tables are imported from the SQL database 
 
 ## Machine Learning Model
 
-[match_clean_NN.ipynb](https://github.com/moonem/FinalProject/blob/main/Segment_3/match_clean_NN.ipynb)
+[match_clean_NN.ipynb](https://github.com/moonem/FinalProject/blob/main/Resources/all_ipynb/match_clean_NN.ipynb)
 
 In order to predict a team's outcome in a game we chose **Neural Network** based **Deep Learning** algorithm. As the decision is kind of binary *yes / no*, we could choose other simpler *regression* based prediction algorithm also. Since neural network based algorithm provides better accuracy even with non-linear data relationship, *we preferred Deep Learning Model* over other prediction models.
 
 ### Data Preprocessing
   
-  The data on matches is imported from SQL localhost server to a jupyter notebook for preprocessing. Following image screeshots of the **MLS_matches_NN.ipynb** link: [jupyter notebook](https://github.com/moonem/FinalProject/blob/main/Segment_2/MLS_matches_NN.ipynb) shows the steps of data preprocessing.
+  The data on matches is imported from SQL localhost server to a jupyter notebook for preprocessing. Following image screeshots of the **MLS_matches_NN.ipynb** link: [jupyter notebook](https://github.com/moonem/FinalProject/blob/main/Resources/all_ipynb/MLS_matches_NN.ipynb) shows the steps of data preprocessing.
   
 ### Read data from SQL database:
   
