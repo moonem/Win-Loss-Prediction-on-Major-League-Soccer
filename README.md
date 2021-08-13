@@ -1,6 +1,5 @@
 # FinalProject
 
-[Dashboard link in Tableau Public:](https://public.tableau.com/app/profile/sean3063/viz/MLSDashboard/Dashboard1)
 
   ## Win/Loss Prediction in Major League Soccer using Deep Learning model
   An overvall summary of our project and Segment 1 deliverables can be found here. Outside of joint efforts accomplishing the below, individual contributions are outlined in README files located within each team member's individual branches. 
@@ -8,6 +7,11 @@
   #### Reason to choose this topic
   
   After forming the team for the Final Project, we explored few other topics to choose from but most team members showed passion to work on **Major League Soccer** data and thought this would be interesting to predict a team's outcome using Deep Learning model. 
+  
+  [Dashboard link in Tableau Public:](https://public.tableau.com/app/profile/sean3063/viz/MLSDashboard/Dashboard1)
+  
+  ![MLS Dashboard](https://user-images.githubusercontent.com/58155187/129308899-1269408f-0b52-46cf-9040-b3c36d24474a.png)
+
   
 ## Project Goal 
 
