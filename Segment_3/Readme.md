@@ -1,6 +1,6 @@
-# This Readme file is to highlight the project team contribution as per the rubric for Segment-3.
+# This Readme file is to highlight the project team contribution as per the rubric for Segment-4.
 
-**Segment 3 is a continuation of other two Segments' work presented before.**
+**Segment 4 is a continuation of other three Segments' work presented before.**
   
   ## Presentation
 
@@ -201,12 +201,12 @@ This is not a high accuracy metric, but based on our available realistic input d
 
 ## GitHub
 
-- The `main` branch has all data and codes in **Resources** folder. A copy of files relevant to *Segment-3* of the project, have been kept inside the **Segment_3** folder under the **FinalProject** folder; url: [Segment_3](https://github.com/moonem/FinalProject/tree/main/Segment_3).
+- The `main` branch has all data and codes in **Resources** folder. A copy of files relevant to *Segment-4* of the project, have been kept inside the **Segment_4** folder under the **FinalProject** folder; url: [Segment_4](https://github.com/moonem/FinalProject/tree/main/Segment_4).
 - A separate **match_clean_NN.ipynb** file is created to design the machine learning model; [file url:](https://github.com/moonem/FinalProject/Resources/all_ipynb/match_clean_NN.ipynb)
 - Communication protocols are defined in the **Readme.md** file for the project team.
 - Outline of the project is described in the Readme.md which is updated regularly as the teamwork is progressing every week.
 - Each of 4 team members have their individual brances. 
-- Each team member is uploading their commits to their respective branch and/or to the `main` and 'Segment_3' project folders.
+- Each team member is uploading their commits to their respective branch and/or to the `main` and 'Segment_4' project folders.
 
 ## Database
 
@@ -214,9 +214,9 @@ Details of PostgreSQL database creation, exportin files to database, importing f
 
 ## Dashboard
 
-We will be presenting our analysis on Tableau, an interactive data visualization tool. The presentation will be in the form of a multi-dashboard Tableau story hosted online on Tableau Public. 
+We are presenting our analysis on Tableau, an interactive data visualization tool. The presentation is in the form of a multi-dashboard Tableau story hosted online on [Tableau Public.](https://public.tableau.com/app/profile/sean3063/viz/MLSDashboard/Dashboard1) 
 
-Our dashboards will incorporate historical data in the form of various team and player statistics from previous MLS seasons. We filtered our data by team and using team logo images as part of our filter-selection features. After selecting a team logo, the dashboard will present statistics like last year's top scorer, the team's record over the years, and data on average stadium attendance rates, among others.
+Our dashboards incorporates historical data in the form of various team and player statistics from previous MLS seasons. We filtered our data by team and using team logo images as part of our filter-selection features. After selecting a team logo, the dashboard will present statistics like last year's top scorer, the team's record over the years, and data on average stadium attendance rates, among others.
 
 [dashboard image 1](https://drive.google.com/file/d/1rbAqDhGwEDbDec6BgJ0yeLay89Pw2nre/view?usp=sharing)
 
@@ -225,6 +225,8 @@ Our dashboards will incorporate historical data in the form of various team and 
 [dashboard image 3](https://drive.google.com/file/d/1I_BacWb6ySUhYBZGA913LTiOZdxV3r2-/view?usp=sharing)
 
 [dashboard Movie](https://drive.google.com/file/d/1tDt5H8qEujCfAFWTHFXx7RLfz_4uyTQe/view?usp=sharing)
+
+
 
 
 
