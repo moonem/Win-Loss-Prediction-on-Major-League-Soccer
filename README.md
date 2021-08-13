@@ -85,9 +85,13 @@ Our team has 4 members. Coincidentally our data source has also 4 key *.csv* fil
   
   ## Segment 3
   
-  **Segment 3 is a continuation of other two Segments' work presented before.**
+  **Segment 3 project work is merged with Segment 4 including additional progress on the project.** 
   
-  [Segment-3 link](https://github.com/moonem/FinalProject/tree/main/Segment_3)
+  ## Segment 4
+  
+  **Segment 4 is a continuation of other three Segments' work presented before.**
+  
+  [Segment-4 link](https://github.com/moonem/FinalProject/tree/main/Segment_4)
   
   ## Presentation
 
@@ -293,7 +297,7 @@ This is not a high accuracy metric, but based on our available realistic input d
 - Communication protocols are defined in the **Readme.md** file for the project team.
 - Outline of the project is described in the Readme.md which is updated regularly as the teamwork is progressing every week.
 - Each of 4 team members have their individual brances. 
-- Each team member is uploading their commits to their respective branch and/or to the `main` and 'Segment_3' project folders.
+- Each team member is uploading their commits to their respective branch and/or to the `main` and 'Segment_4' project folders.
 
 ## Database
 
