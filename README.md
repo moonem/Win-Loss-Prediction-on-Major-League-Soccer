@@ -119,6 +119,9 @@ Our team decided on this project because our home city, Austin, Texas, recently 
 
 ### Questions we hope to answer with the data
 
+The following figure shows the column headers which are essentially the input FEATURES (X) and the last “outcome” column is the OUTCOME (y) for the Machine Learning Model.
+As the headers say, we expect to relate a good prediction of outcome based on the feature columns.
+
 ![image](https://user-images.githubusercontent.com/58155187/127813723-fc574beb-701c-4300-a891-fe95db09245a.png)
 
 ### Data Exploration
