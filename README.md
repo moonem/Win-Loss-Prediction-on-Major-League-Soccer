@@ -1,27 +1,18 @@
-# FinalProject
-
-
-  ## Win/Loss Prediction in Major League Soccer using Deep Learning model
-  An overvall summary of our project and Segment 1 deliverables can be found here. Outside of joint efforts accomplishing the below, individual contributions are outlined in README files located within each team member's individual branches. 
-  
-  #### Reason to choose this topic
-  
-  After forming the team for the Final Project, we explored few other topics to choose from but most team members showed passion to work on **Major League Soccer** data and thought this would be interesting to predict a team's outcome using Deep Learning model. 
-  
-  [Dashboard link in Tableau Public:](https://public.tableau.com/app/profile/sean3063/viz/MLSDashboard/Dashboard1)
-  
-  ![MLS Dashboard](https://user-images.githubusercontent.com/58155187/129308899-1269408f-0b52-46cf-9040-b3c36d24474a.png)
-
-  
+# Win/Loss Prediction in Major League Soccer using Deep Learning model
+    
 ## Project Goal 
 
 Predict win/loss outcomes of a specified team in the **Major League Soccer (MLS)** through a machine learning model that utilizes match statistics from the **2001-2021** seasons. 
 
 Multiple variables, such as **player** and **team performance**, **home/away status**, and **stadium attendance**, will be analyzed to gauge their impact and **predict potential match outcomes**.
 
-In addition to a machine learning model that predicts future match outcomes, the team will develop a Tableau dashboard that provides additional insight into the historical performance of MLS franchises, including data on win/loss records and top scorers.
+In addition to a machine learning model that predicts future match outcomes, the team develops a Tableau dashboard that provides additional insight into the historical performance of MLS franchises, including data on win/loss records and top scorers.
 
 Our team decided on this project because our home city, Austin, Texas, recently got its first MLS soccer club. Austin FC, a new member of the Western Conference, has had a hot start to the 2021 season. We wanted to dig into the historic perforamance of rival clubs and develop a model to predict outcomes for our home team's first season. 
+
+ [Dashboard link in Tableau Public:](https://public.tableau.com/app/profile/sean3063/viz/MLSDashboard/Dashboard1)
+  
+  ![MLS Dashboard](https://user-images.githubusercontent.com/58155187/129308899-1269408f-0b52-46cf-9040-b3c36d24474a.png)
 
 ## Dataset Overview
 
@@ -74,8 +65,6 @@ Team communication and project planning has been conducted through live video ca
 
 ## Teamwork
 
-  ## Segment 1
-  
 Our team has 4 members. Coincidentally our data source has also 4 key *.csv* files for the analysis. Each team-member cleaned one *.csv* data using **ETL** process and pushed to their respective branches as shown below. 
 
 1. Sean Tyson - all_tables_cleaned.csv, QuickDBD-export.png; 
@@ -83,21 +72,7 @@ Our team has 4 members. Coincidentally our data source has also 4 key *.csv* fil
 3. Daniel Gonzalez - matches_2004to2021.csv; 
 4. Ben Reed - all_goalkeepers_clean.csv; 
 
-  ## Segment 2
-  
-  **Segment 2 project work is merged with Segment 3 including additional progress on the project.** 
-  
-  ## Segment 3
-  
-  **Segment 3 project work is merged with Segment 4 including additional progress on the project.** 
-  
-  ## Segment 4
-  
-  **Segment 4 is a continuation of other three Segments' work presented before.**
-  
-  [Segment-4 link](https://github.com/moonem/FinalProject/tree/main/Segment_4)
-  
-  ## Presentation
+## Presentation
 
 [google slides](https://docs.google.com/presentation/d/1b0U9tTp1LIhrh8zkYAMvX0BZqA8qRPFrOiRTJiwtGKI/edit?usp=sharing)
 
@@ -108,14 +83,6 @@ The topic has been selected as **"Win/Loss Prediction in Major League Soccer usi
 ### Reason behind choosing this topic
 
 Our team decided on this project because our home city, Austin, Texas, recently got its first MLS soccer club. **Austin FC**, a new member of the Western Conference, has had a hot start to the 2021 season. We wanted to dig into the historic perforamance of rival clubs and develop a **machine learning model** to predict outcomes for our home team's first season. 
-
-### Description of the Source of Data
-
-**Data Source** is the **Kaggle** data, Major League Soccer Dataset - by Joseph Mohr, last updated 11th July, 2021; version 34. The weblink: https://www.kaggle.com/josephvm/major-league-soccer-dataset
-
-  This dataset contains player, game, event, and table data from Major League Soccer (MLS).
-
-  There is currently information on over 6000 matches and almost 420,000 events from those matches.
 
 ### Questions we hope to answer with the data
 
